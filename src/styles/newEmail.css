@@ -1,4 +1,4 @@
-.app > .newEmailWrap {
+.newEmailWrap {
     display: grid;
     grid-area: sendemails;
     grid-template-columns: 50px 1fr;
@@ -8,7 +8,7 @@
     padding-bottom: 20px;
 }
 
-.app .sendEmailWrapper {
+.sendEmailWrapper {
     display: grid;
     grid-template-rows: 30px,
     1fr,

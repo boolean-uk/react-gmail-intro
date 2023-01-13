@@ -5,7 +5,7 @@
   grid-template:
     'header header' 50px
     'left-menu emails' 1fr 
-    ' . sendemails' 200px /
+    ' . sendemails' 50px /
     180px 1fr;
 }
 

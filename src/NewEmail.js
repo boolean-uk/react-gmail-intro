@@ -1,5 +1,6 @@
 import './styles/newEmail.css'
 
+
 function NewEmail() {
     return (
         <div className="newEmailWrap">

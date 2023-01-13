@@ -3,7 +3,7 @@ import './styles/app.css'
 import Header from './Header'
 import LeftMenu from './LeftMenu'
 import EmailView from './EmailView'
-import NewEmail from './NewEmail'
+
 
 function App() {
     return (
@@ -11,7 +11,7 @@ function App() {
             <Header/>
             <LeftMenu/>
             <EmailView/>
-            <NewEmail/>
+            
         </div>
     )
 }
