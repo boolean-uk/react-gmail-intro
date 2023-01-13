@@ -1,5 +1,4 @@
 import "./styles/app.css";
-// import MainSection from "./MainSection.js";
 import Header from "./Header.js";
 import Nav from "./Nav.js";
 import Emailtools from "./Emailtools.js";
@@ -10,9 +9,8 @@ function App() {
     <div className="app">
       <Header />
       <Nav />
-      {/* <MainSection /> */}
       <main className="email-view">
-        <Emailtools /> 
+        <Emailtools />
         <Emailcontents />
       </main>
     </div>
