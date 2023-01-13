@@ -1,0 +1,99 @@
+.app > .newEmailWrap {
+    display: grid;
+    grid-area: sendemails;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
+    height: 1fr;
+    width: 1000px;
+    padding-bottom: 20px;
+}
+
+.app .sendEmailWrapper {
+    display: grid;
+    grid-template-rows: 30px,
+    1fr,
+    50px;
+    grid-template-areas: 'header'
+    'body'
+    'footer';
+    gap: 5px;
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.profileWrapper {
+    background-color: rgb(192, 192, 192);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.newEmailHeader {
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 40px 1fr 1fr 50px;
+    grid-template-areas: 'arrow email . popout';
+}
+
+.replyarrow {
+    background-color: grey;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.popouticon {
+    grid-area: popout;
+    background-color: grey;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.newEmailMain {
+    grid-area: body;
+    height: 130px;
+}
+.newEmailFooter {
+    grid-area: footer;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 100px 200px 1fr 80px;
+    grid-template-areas: 'send icons . bin';
+    height: 50px;
+}
+
+.sendButton {
+    background-color: blue;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.newEmailIcons {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(8, 30px);
+    border-radius: 10px;
+
+}
+
+.newEmailIcons > div {
+    background-color: grey;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+.deleteAndMore {
+    grid-area: bin;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.deleteAndMore > div {
+    background-color: grey;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}

@@ -1,14 +1,15 @@
 .app {
-  height: 100vh;
+  /* height: 100vh; */
 
   display: grid;
   grid-template:
     'header header' 50px
-    'left-menu emails' 1fr /
+    'left-menu emails' 1fr 
+    ' . sendemails' 200px /
     180px 1fr;
 }
 
-.app > .header {
+/* .app > .header {
   grid-area: header;
 
   display: grid;
@@ -41,9 +42,9 @@
   background-color: rgb(240, 240, 240);
   padding: 0 10px;
   font-size: 1rem;
-}
+} */
 
-.app > .left-menu {
+/* .app > .left-menu {
   grid-area: left-menu;
   padding: 10px;
   padding-left: 0;
@@ -71,9 +72,9 @@
 
 .app > .left-menu .inbox-list .item.toggle {
   background-color: transparent;
-}
+} */
 
-.email-toolbar {
+/* .email-toolbar {
   padding: 0.5rem 2rem;
 
   display: grid;
@@ -192,4 +193,5 @@
   background-color: transparent;
 
   font-weight: bold;
-}
+} */
+
