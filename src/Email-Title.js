@@ -1,3 +1,5 @@
+import './styles/title.css'
+
 function EmailTitle (){
     return (
         <div className="title">
@@ -5,4 +7,4 @@ function EmailTitle (){
           </div>
     )
 }
-export default EmailTitle
+export default EmailTitle;
