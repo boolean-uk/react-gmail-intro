@@ -1,0 +1,29 @@
+.leftMenu {
+    grid-area: left-menu;
+    padding: 10px;
+    padding-left: 0;
+  }
+  
+.leftMenu .inbox-list {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+.leftMenu .inbox-list .item {
+    padding: 5px 10px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+.leftMenu .inbox-list .item.active {
+    background-color: #ff000050;
+  }
+  
+.leftMenu .inbox-list .item.toggle {
+    background-color: transparent;
+  }
