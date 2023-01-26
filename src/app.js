@@ -1,10 +1,10 @@
-import './styles/app.css'
+import "./styles/app.css";
 
-import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
-import backArrow from './assets/icons/back-arrow.png'
-import downloadButton from './assets/icons/download-button.png'
-import rateStarButton from './assets/icons/rate-star-button.png'
-import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
+import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
+import backArrow from "./assets/icons/back-arrow.png";
+import downloadButton from "./assets/icons/download-button.png";
+import rateStarButton from "./assets/icons/rate-star-button.png";
+import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
             <span className="count">2</span>
           </li>
 
-          <li className="item toggle">
+          <li clanpmssName="item toggle">
             <label htmlFor="hide-read">Hide read</label>
             <input id="hide-read" type="checkbox" checked={false} />
           </li>
@@ -116,7 +116,7 @@ function App() {
         </article>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
