@@ -1,3 +1,7 @@
+# Added EmailWrite Component
+[image](./Capture.PNG)
+
+
 # React Introduction
 
 In this exercise, you are going to work with the layout of [Gmail](./images/gmail-email-view-intro.png) and practice breaking down a larger complex view of an existing codebase into components. As an extra challenge, you can also practice adding new components.
