@@ -1,6 +1,6 @@
 import './styles/app.css'
 import Header from './components/Header'
-import EmailView from './components/EmailView'
+import EmailView from './components/email_view/EmailView'
 import LeftMenu from './components/LeftMenu'
 
 function App() {
