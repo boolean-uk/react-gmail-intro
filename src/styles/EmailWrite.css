@@ -31,9 +31,23 @@
 .write-header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     padding: 10px;
     gap: 8px;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
     align-items: center;
 }
 
@@ -78,7 +92,7 @@
 
 .write-actions {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     gap: 20px;
