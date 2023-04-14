@@ -1,5 +1,6 @@
 .email-write-row {
     margin-top: 12px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -9,17 +10,18 @@
 
 .avatar {
     width: 56px;
-    height: 56px; 
+    height: 56px;
     border-radius: 100%;
     background-color: #eee;
 }
 
-.email-write-content {   
+.email-write-content {
     display: flex;
     flex-direction: column;
     border-radius: 12px;
+    border: 2px solid rgb(202, 201, 201);
     padding: 20px;
-    width: 70%;
+    width: 90%;
     height: 300px;
     margin-bottom: 12px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -38,7 +40,7 @@
 .reply-icon {
     cursor: pointer;
     width: 20px;
-    height: 20px; 
+    height: 20px;
     border-radius: 100%;
 
 }
@@ -46,11 +48,11 @@
 .icon {
     cursor: pointer;
     width: 30px;
-    height: 30px; 
+    height: 30px;
 }
 
 .to-container {
-    border-bottom: 2px solid orange;
+    border-bottom: 1.7px solid orange;
 }
 
 .header-to {
@@ -60,11 +62,11 @@
 }
 
 .content-input {
-    
+
     line-height: 100%;
     padding-right: 12px;
     padding-left: 12px;
-    
+
     border: none;
     outline: none;
     vertical-align: top;
@@ -79,18 +81,19 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    gap: 10px;
+    gap: 20px;
 }
 
 .send-button {
     cursor: pointer;
+    margin-right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 140px;
     height: 50px;
     border-radius: 5px;
-    background-color: blue;
+    background-color: rgb(58, 125, 202);
     border: none;
 }
 
@@ -98,7 +101,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid darkblue;
+    border-right: 2px solid rgb(39, 104, 179);
     height: 100%;
     width: 70%;
     padding: 6px;
@@ -106,9 +109,10 @@
 }
 
 .send-button-a h3 {
-    
+
     color: white;
 }
+
 .send-button-b {
     display: flex;
     align-items: center;
@@ -124,6 +128,7 @@
 }
 
 .dots {
+    cursor: pointer;
     width: 50px;
     border-radius: 12px;
     background-color: rgb(233, 233, 233);

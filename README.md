@@ -1,5 +1,5 @@
 # Added EmailWrite Component
-[image](./Capture.PNG)
+[image](./email-write.png)
 
 
 # React Introduction

@@ -2,7 +2,7 @@ import '../../styles/EmailWrite.css'
 import unknown from '../../assets/images/unknown.webp'
 import reply_arrow from '../../assets/images/reply_arrow.png'
 import { ChevronDownIcon, PaperClipIcon, PhotoIcon } from '@heroicons/react/20/solid'
-import {FaceSmileIcon} from '@heroicons/react/24/outline'
+import { FaceSmileIcon } from '@heroicons/react/24/outline'
 const EmailWrite = () => {
     return (
         <form className="email-write-row">
@@ -24,12 +24,12 @@ const EmailWrite = () => {
                             <h3>Send</h3>
                         </div>
                         <div className='send-button-b'>
-                            <ChevronDownIcon className='icon' color='white'/>
+                            <ChevronDownIcon className='icon' color='white' />
                         </div>
                     </button>
-                    <PaperClipIcon className='icon' color='gray'/>
-                    <PhotoIcon className='icon' color='gray'/>
-                    <FaceSmileIcon className='icon' color='gray'/>
+                    <PaperClipIcon className='icon' color='gray' />
+                    <PhotoIcon className='icon' color='gray' />
+                    <FaceSmileIcon className='icon' color='gray' />
                 </div>
             </article>
         </form>
