@@ -1,9 +1,11 @@
 .app {
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 100px;
 
   display: grid;
-  grid-template:
-    'header header' 50px
-    'left-menu emails' 1fr /
-    180px 1fr;
+  grid-template-columns: 20% 80%;
+  grid-template-areas:
+    'header header'
+    'left-menu emails'
+    'left-menu response';
 }

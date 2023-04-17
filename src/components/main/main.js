@@ -5,10 +5,10 @@ import Article from './article/article.js'
 
 function Main() {
     return (
-<main className="email-view">
-        <Nav />
-        <Article />
-      </main>
+        <main className="email-view">
+            <Nav />
+            <Article />
+        </main>
     )
 }
 

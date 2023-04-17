@@ -1,6 +1,6 @@
 import './sectionone.css'
 
-import flaticonWelcomeImage from 'D:/Temporary/react-gmail-intro/src/assets/images/flaticon-welcome-image.png'
+import flaticonWelcomeImage from '../../../../assets/images/flaticon-welcome-image.png'
 
 function SectionOne() {
     return (

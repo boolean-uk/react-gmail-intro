@@ -1,0 +1,123 @@
+.response {
+    grid-area: response;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+
+.response__avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+
+    background-image: url('./monke.gif');
+    background-position: center center;
+}
+
+.response__box {
+    border-radius: 20px;
+    border: solid 1px #333;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 30px auto 30px;
+    grid-template-rows: 50px 200px;
+    grid-template-areas:
+        'icon email external'
+        'dots text text'
+        'options options options';
+    column-gap: 10px;
+    row-gap: 10px;
+
+    margin-right: 1rem
+}
+
+.respone__box__icon {
+    grid-area: icon;
+    display: grid;
+    align-self: center;
+
+    width: 30px;
+}
+
+.response__box__email {
+    grid-area: email;
+    display: grid;
+    align-self: center;
+
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #efefef;
+}
+
+.response__box__external {
+    grid-area: external;
+    display: grid;
+    align-self: center;
+    
+    width: 30px;
+}
+
+.response__box__dots {
+    grid-area: dots;
+    display: grid;
+    align-self:last baseline;
+
+    width: 30px;
+    height: 15px;
+
+    border-radius: 20px;
+    background-color: #efefef;
+}
+
+.response__box__input {
+    grid-area: text;
+    display: grid;
+}
+
+.response__box__options {
+    grid-area: options;
+    display: grid;
+
+    grid-template-columns: 100px auto 60px;
+    grid-template-rows: 50px;
+    grid-template-areas:
+        'button options end';
+    column-gap: 10px;
+}
+
+.response__box__options__button {
+    grid-area: button;
+    display: grid;
+
+    background-color: #4285F4;
+    border-radius: 5px;
+    border: solid 0 #333;
+    transition: 0.5s;
+
+    color: white;
+    font-size: 1em;
+    align-content: center;
+}
+
+.response__box__options__button:hover {
+    background-color: rgba(66, 134, 244, 0.5);
+}
+
+.response__box__options__icons {
+    grid-area: options;
+    display: flex;
+}
+
+.response__box__options__icons__icon {
+    width: 30px;
+    padding-right: 5px;
+}
+
+.response__box__options__end {
+    grid-area: end;
+    display: flex;
+}
+
+.response__box__options__end__icon {
+    width: 30px;
+}

@@ -1,8 +1,8 @@
 import './header.css'
 
-import backArrow from 'D:/Temporary/react-gmail-intro/src/assets/icons/back-arrow.png'
-import rateStarButton from 'D:/Temporary/react-gmail-intro/src/assets/icons/rate-star-button.png'
-import rubbishButton from 'D:/Temporary/react-gmail-intro/src/assets/icons/rubbish-bin-delete-button.png'
+import backArrow from '../../../../assets/icons/back-arrow.png'
+import rateStarButton from '../../../../assets/icons/rate-star-button.png'
+import rubbishButton from '../../../../assets/icons/rubbish-bin-delete-button.png'
 
 function Header() {
     return (
