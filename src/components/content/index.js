@@ -2,6 +2,7 @@ import Icons from '../icons'
 import Actions from '../actions'
 import Body from '../body'
 import MailHeader from '../mailHeader'
+import './style.css'
 function Content() {
     return(
     <article className="email-content">
