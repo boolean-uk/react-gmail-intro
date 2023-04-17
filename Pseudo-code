@@ -1,0 +1,14 @@
+// 1. make directories for the components you want to split
+// 2. start the page with 
+
+/* function FileName() {
+    return (
+        // Code hier
+    )
+}
+
+export default    FileName
+*/
+// 3. end the page with a export default    FileName
+// 4. add in app.js all the 'import from' with the right directory path
+// 5. add same named directories in styles
