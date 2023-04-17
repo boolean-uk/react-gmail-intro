@@ -1,0 +1,44 @@
+.compose-container {
+  border: 1px solid gray;
+  border-radius: 25px;
+  width: 80%;
+}
+
+.adress-bar{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 150px;
+}
+
+.adress-bar img {
+  width: 25px;
+}
+
+.adress-bar > .email-adress {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  color: gray;
+  text-decoration: underline rgb(250,210,98)
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar > button {
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 10px;
+  border-radius: 0.5rem;
+  border: 1px solid #a1a1a1;
+  background-color: rgb(31,115,232);
+  font-weight: bold;
+}
+
+.toolbar > img {
+  width: 30px;
+  height: 30px;
+}

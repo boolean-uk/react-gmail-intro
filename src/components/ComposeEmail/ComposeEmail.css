@@ -1,0 +1,5 @@
+.compose-email {
+  display: grid;
+  grid-template-columns: 1fr 15fr;
+  margin: 20px auto;
+}

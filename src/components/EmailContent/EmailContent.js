@@ -1,6 +1,7 @@
 import EmailBody from 'components/EmailBody/EmailBody'
 import EmailHeader from 'components/EmailHeader/EmailHeader'
 import EmailActions from 'components/EmailActions/EmailActions'
+import ComposeEmail from 'components/ComposeEmail/ComposeEmail'
 
 import './EmailContent.css'
 
@@ -13,6 +14,7 @@ const EmailContent = () => {
       <EmailHeader />
       <EmailBody />
       <EmailActions />
+      <ComposeEmail />
     </article>
   )
 }
