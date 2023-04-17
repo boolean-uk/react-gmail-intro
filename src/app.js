@@ -5,11 +5,16 @@ import backArrow from './assets/icons/back-arrow.png'
 import downloadButton from './assets/icons/download-button.png'
 import rateStarButton from './assets/icons/rate-star-button.png'
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
+import Head from './components/Head/index.js'
+import Nav from './components/nav/index.js'
+import ToolBar from './components/toolBar/index.js'
+import Content from './components/content/index.js'
+import Main from './components/main/index.js'
 
 function App() {
   return (
     <div className="app">
-      <header className="header">
+      {/* <header className="header">
         <div className="left-menu">
           <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
@@ -24,8 +29,9 @@ function App() {
         <div className="search">
           <input className="search-bar" placeholder="Search mail" />
         </div>
-      </header>
-      <nav className="left-menu">
+      </header> */}
+      <Head />
+      {/* <nav className="left-menu">
         <ul className="inbox-list">
           <li className="item active">
             <span className="label">Inbox</span>
@@ -41,9 +47,10 @@ function App() {
             <input id="hide-read" type="checkbox" checked={false} />
           </li>
         </ul>
-      </nav>
+      </nav> */}
+      <Nav />
       <main className="email-view">
-        <nav className="email-toolbar">
+        {/* <nav className="email-toolbar">
           <ul>
             <li>
               <img className="icon" src={backArrow} alt="reply button" />
@@ -61,8 +68,9 @@ function App() {
             <button>&lt;</button>
             <button>&gt;</button>
           </div>
-        </nav>
-        <article className="email-content">
+        </nav> */}
+        {/* <ToolBar /> */}
+        {/* <article className="email-content">
           <div className="title">
             <h1>Welcome to Flaticon</h1>
           </div>
@@ -113,7 +121,9 @@ function App() {
             <button>Reply</button>
             <button>Forward</button>
           </section>
-        </article>
+        </article> */}
+        {/* <Content /> */}
+        <Main />
       </main>
     </div>
   )
