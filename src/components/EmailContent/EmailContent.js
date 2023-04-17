@@ -1,7 +1,6 @@
-import EmailActions from '../EmailActions/EmailActions'
-import EmailBody from '../EmailBody/EmailBody'
-import EmailHeader from '../EmailHeader/EmailHeader'
-
+import EmailBody from 'components/EmailBody/EmailBody'
+import EmailHeader from 'components/EmailHeader/EmailHeader'
+import EmailActions from 'components/EmailActions/EmailActions'
 
 import './EmailContent.css'
 
