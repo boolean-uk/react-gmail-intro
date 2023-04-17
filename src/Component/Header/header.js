@@ -1,3 +1,5 @@
+import 'Component/Header/header.css'
+
 function HeaderContent() {
   return (
     <header className="header">
