@@ -6,6 +6,7 @@ import rubbishButton from 'assets/icons/rubbish-bin-delete-button.png'
 import './emailContent.css'
 
 import ImageLi from 'components/imageLi'
+import ReplyBox from 'components/reply_box'
 
 function EmailContent() {
     return (
@@ -52,6 +53,8 @@ function EmailContent() {
                     <button>Reply</button>
                     <button>Forward</button>
                 </section>
+
+                <ReplyBox />
         </article>
     )
 }
