@@ -1,9 +1,8 @@
 .reply-box {
-    width: 100%;
-    height: 250px;
+    height: 300px;
     border: 2px solid rgb(202, 202, 202);
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin: 200px;
     display: grid;
     grid-template-rows: 40px 1fr auto;
     padding: 15px 20px;
@@ -44,25 +43,23 @@
 
 .reply-box footer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: column;
 }
 
 .reply-box footer #left-icons {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    width: auto;
+    grid-auto-flow: column;
     align-items: center;
-    gap: 10px;
-    align-items: left;
+    justify-content: left;
+    gap: 20px;
 }
 
 .reply-box footer #right-icons {
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    width: auto;
+    grid-auto-flow: column;
+    justify-content: right;
     align-items: center;
-    gap: 10px;
-    align-items: left;
+    gap: 20px;
 }
 
 .reply-box footer #pair-buttons {
