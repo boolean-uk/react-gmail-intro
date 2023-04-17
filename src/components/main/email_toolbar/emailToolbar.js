@@ -1,10 +1,10 @@
-import downloadButton from '../../../assets/icons/download-button.png'
-import backArrow from '../../../assets/icons/back-arrow.png'
-import rubbishButton from '../../../assets/icons/rubbish-bin-delete-button.png'
+import downloadButton from 'assets/icons/download-button.png'
+import backArrow from 'assets/icons/back-arrow.png'
+import rubbishButton from 'assets/icons/rubbish-bin-delete-button.png'
 
 import './emailToolbar.css'
 
-import ImageLi from '../../imageLi'
+import ImageLi from 'components/imageLi'
 
 function EmailToolbar() {
     return (
