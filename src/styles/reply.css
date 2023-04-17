@@ -1,0 +1,110 @@
+.reply-view {
+  /* background-color: red; */
+
+  /* padding: 1rem; */
+  margin-block: 1.4rem;
+  display: grid;
+  grid-template-columns: 52px 1fr;
+}
+.reply-view .reply-content {
+  /* background-color: red; */
+
+  padding: 0.5rem 2rem;
+  margin-right: 0.5rem;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  border: 1px solid rgba(65, 65, 65, 0.8);
+  border-radius: 10px;
+}
+.reply-content--header .avatar {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 100%;
+  background-color: #eee;
+}
+
+.reply-view .header {
+  /* padding: 0.5rem 1rem; */
+  padding-top: 0.1rem;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 1rem;
+}
+.reply-view .start {
+  /* display: flex; */
+}
+
+.reply-view .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.reply-content .body {
+  padding-block: 1.5rem;
+  padding-inline: 0.4rem;
+  border-style: none;
+  border-color: Transparent;
+  overflow: auto;
+  border: none;
+  outline: none;
+  resize: none;
+}
+textarea :focus {
+  border: none;
+  outline: none;
+  resize: none;
+}
+.reply-content .actions {
+  padding-bottom: 0.4rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 1rem;
+}
+.actions .icons {
+  /* background: red; */
+  align-items: center;
+  /* padding-top: 0.5rem; */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+}
+.actions .send {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.icons .start {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  gap: 0.6rem;
+}
+.icons .end {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0.4rem;
+}
+.icons .icon,
+.header .icon {
+  color: rgba(65, 65, 65, 0.815);
+}
+
+.reply-content button {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+
+  border-radius: 0.5rem;
+  border: 1px solid #a1a1a1;
+  background-color: rgb(77, 154, 226);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  /* font-weight: bold; */
+}
+
+.reply-content button:hover {
+  background-color: blue;
+  color: white;
+}
