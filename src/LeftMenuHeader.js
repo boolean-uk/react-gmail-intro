@@ -1,3 +1,5 @@
+import './styles/LeftMenuHeader.css'
+
 function LeftMenuHeader () {
     return (    <div className="left-menu">
     <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">

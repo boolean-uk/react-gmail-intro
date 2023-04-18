@@ -1,3 +1,5 @@
+import './styles/EmailInfo.css'
+
 import UserInfo from "./UserInfo.js"
 import SenderInfo from "./SenderInfo.js"
 

@@ -1,3 +1,5 @@
+import './styles/EmailContentHeader.css'
+
 import EmailActionIcons from './EmailActionIcons.js'
 import DateInfo from './DateInfo.js'
 import Avatar from './Avatar.js'

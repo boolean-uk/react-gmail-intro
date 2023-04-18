@@ -1,5 +1,8 @@
+import './styles/Leftmenu.css'
+
 function Leftmenu () {
-    return (      <nav className="left-menu">
+    return (      
+    <nav className="left-menu">
     <ul className="inbox-list">
       <li className="item active">
         <span className="label">Inbox</span>

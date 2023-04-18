@@ -1,3 +1,5 @@
+import './styles/Header.css'
+
 import Search from './Search.js'
 import LeftMenuHeader from './LeftMenuHeader.js'
 

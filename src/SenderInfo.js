@@ -1,3 +1,5 @@
+import './styles/SenderInfo.css'
+
 function SenderInfo () {
     return (              <div className="sender-info">
     <h2>Freepik Company</h2>

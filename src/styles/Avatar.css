@@ -1,0 +1,7 @@
+.email-content--header .avatar {
+    width: 56px;
+    height: 56px;
+  
+    border-radius: 100%;
+    background-color: #eee;
+  }
