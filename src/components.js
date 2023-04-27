@@ -1,5 +1,7 @@
 import './styles/header.css'
 import './styles/Nav1.css'
+import './styles/Emailtoolbar.css'
+import './styles/Article.css'
 
 import backArrow from './assets/icons/back-arrow.png'
 import downloadButton from './assets/icons/download-button.png'
