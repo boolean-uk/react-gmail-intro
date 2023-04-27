@@ -1,6 +1,6 @@
-// import '.././styles/EmailViewCSS/EmailContent.css'
-// import '.././styles/app.css'
-// import '.././styles/styles.css'
+import '.././styles/EmailmainCSS/emailmain.css'
+import '.././styles/app.css'
+import '.././styles/styles.css'
 
 import flaticonWelcomeImage from '.././assets/images/flaticon-welcome-image.png'
 import backArrow from '.././assets/icons/back-arrow.png'
