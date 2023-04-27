@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
 
 import App from './app'
+import React from 'react'
 
 import './styles/styles.css'
 
