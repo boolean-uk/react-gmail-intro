@@ -1,4 +1,12 @@
-import './styles/app.css'
+import './styles/app.css';
+import './styles/header.css';
+import './styles/left-menu.css';
+import './styles/email-toolbar.css';
+import './styles/title.css';
+import './styles/email-content.css';
+import './styles/email-action-icons.css';
+import './styles/email-body.css';
+import './styles/email-actions.css';
 
 import React from 'react'
 import Header from './header.js'
