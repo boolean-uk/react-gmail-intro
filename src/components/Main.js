@@ -1,4 +1,4 @@
-// import "./styles/app.css";
+import '../assets/cssComponents/Main.css'
 
 import flaticonWelcomeImage from "../assets/images/flaticon-welcome-image.png";
 import backArrow from "../assets/icons/back-arrow.png";
