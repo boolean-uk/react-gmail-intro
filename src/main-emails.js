@@ -1,3 +1,5 @@
+import './styles/title.css'
+import './styles/email.css'
 function MainEmails() {
     return (
         <main className="email-view">
