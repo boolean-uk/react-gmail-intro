@@ -8,7 +8,6 @@ import './styles/email-action-icons.css';
 import './styles/email-body.css';
 import './styles/email-actions.css';
 
-import React from 'react'
 import Header from './header.js'
 import Menu from './menu.js'
 import EmailToolbar from './email-toolbar.js'
