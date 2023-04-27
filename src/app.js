@@ -1,15 +1,17 @@
-import './styles/app.css'
+import "./styles/app.css";
 
-import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
-import backArrow from './assets/icons/back-arrow.png'
-import downloadButton from './assets/icons/download-button.png'
-import rateStarButton from './assets/icons/rate-star-button.png'
-import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
+import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
+import backArrow from "./assets/icons/back-arrow.png";
+import downloadButton from "./assets/icons/download-button.png";
+import rateStarButton from "./assets/icons/rate-star-button.png";
+import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div className="app">
-      <header className="header">
+      <Header />
+      {/* <header className="header">
         <div className="left-menu">
           <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
@@ -24,7 +26,7 @@ function App() {
         <div className="search">
           <input className="search-bar" placeholder="Search mail" />
         </div>
-      </header>
+      </header> */}
       <nav className="left-menu">
         <ul className="inbox-list">
           <li className="item active">
@@ -116,7 +118,7 @@ function App() {
         </article>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
