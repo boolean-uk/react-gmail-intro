@@ -3,6 +3,8 @@ import rateStarButton from "./assets/icons/rate-star-button.png";
 import backArrow from "./assets/icons/back-arrow.png";
 import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
 
+import "./styles/mainsectionart.css";
+
 const MainSectionArt = () => {
   return (
     <article className="email-content">
