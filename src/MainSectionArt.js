@@ -1,3 +1,8 @@
+import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
+import rateStarButton from "./assets/icons/rate-star-button.png";
+import backArrow from "./assets/icons/back-arrow.png";
+import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
+
 const MainSectionArt = () => {
   return (
     <article className="email-content">
@@ -46,4 +51,5 @@ const MainSectionArt = () => {
     </article>
   );
 };
+
 export default MainSectionArt;
