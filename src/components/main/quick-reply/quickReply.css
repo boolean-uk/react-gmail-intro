@@ -1,0 +1,51 @@
+.quick-reply-wrapper {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: min-content auto;
+}
+
+.avatar {
+    padding: 5px;
+    margin: 10px;
+}
+
+.quick-reply {
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    
+    padding: 20px;
+    margin: 0px 20px 20px 5px;
+}
+
+.quick-reply p {
+    display: inline-block;
+    margin: 3px 5px;
+    
+    color: grey;
+}
+
+.quick-reply .header img {
+    width: 15px;
+    margin: 3px 5px;
+}
+
+.quick-reply textarea {
+    width: 100%;
+    border: 0px solid grey;
+    padding: 20px;
+}
+
+.quick-reply .dots {
+    background-color: rgb(228, 228, 228);
+    border-radius: 30px;
+    padding: 0 10px;
+    box-sizing: content-box;
+    width: 20px;
+}
+
+.quick-reply .buttons img {
+    margin-top: 10px;
+    width: 70%;
+}
