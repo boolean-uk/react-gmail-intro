@@ -1,0 +1,79 @@
+.reply {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 250px;
+    grid-template-areas: 
+    "img message_box";
+}
+#svg {
+    padding: 5px;
+    grid-area: img;
+    height: 55px;
+}
+.message_box{
+    margin: 5px;
+    grid-area: message_box;
+    border: solid 1px rgb(203, 200, 200);
+    border-radius: 10px;
+    grid-template-rows: 150px 1fr 1fr;
+}
+.line_one{
+    display: grid;
+    grid-template-columns: 30px 20px 1fr 20px;
+    grid-template-rows: 150px;
+    padding: 5px;
+}
+#reply_icon{
+    justify-self: center;
+    transform: scale(1,-1)
+    rotate(180deg);
+    height: 22px;
+
+}
+.line_one > p{
+    margin: 0;
+    color: #c7c1c1;
+    font-size: 13px;
+}
+#more_icon{
+    margin-left: 10px;
+    width: 23px;
+    border: solid 1px #e0d9d9;
+    border-radius: 10px;
+    height: 10px;
+    background-color: #e0d9d9;
+}
+.line_two{
+    height: 30px;
+}
+.line_three{
+    display: grid;
+    grid-template-columns: 150px repeat(auto-fit,30px);
+}
+.line_three> svg{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.line_three > p{
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 0;
+}
+.line_three >button{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 30px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(58, 101, 240);
+    border-left: solid 1px rgb(58, 101, 240);
+    color: white;
+    padding-top: 6px;
+    border-radius: 5px;
+}
+
+
+#drop_icon_bttn{
+    color: white;
+}
