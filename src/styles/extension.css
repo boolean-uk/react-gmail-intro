@@ -1,0 +1,29 @@
+.centered-box-container {
+    display: flex;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.imageProf {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 100px;
+    width: 1400px;
+    margin: 20px auto;
+}
+
+.inside-content {
+    display: flex;
+    gap: 20px;
+}
+
+.inside-content .p .u {
+    color: gold;
+}
