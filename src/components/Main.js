@@ -2,32 +2,15 @@ import '../styles/app.css'
 
 import flaticonWelcomeImage from '../assets/images/flaticon-welcome-image.png'
 import backArrow from '../assets/icons/back-arrow.png'
-import downloadButton from '../assets/icons/download-button.png'
 import rateStarButton from '../assets/icons/rate-star-button.png'
 import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
+
+import EmailToolBar from './email_toolbar_components/EmailToolBar'
 
 function Main() {
   return (
     <main className="email-view">
-      <nav className="email-toolbar">
-        <ul>
-          <li>
-            <img className="icon" src={backArrow} alt="reply button" />
-          </li>
-          <li>
-            <img className="icon" src={downloadButton} alt="archive button" />
-          </li>
-          <li>
-            <img className="icon" src={rubbishButton} alt="delete button" />
-          </li>
-        </ul>
-        <div className="space"></div>
-        <div>
-          <p>1 of 25</p>
-          <button>&lt;</button>
-          <button>&gt;</button>
-        </div>
-      </nav>
+      <EmailToolBar />
       <article className="email-content">
         <div className="title">
           <h1>Welcome to Flaticon</h1>
