@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/left_menu.css'
 
 import ActiveItem from './ActiveItem'
 import HideRead from './HideRead'

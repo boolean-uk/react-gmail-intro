@@ -1,5 +1,6 @@
-import '../styles/app.css'
-import InboxList from './left_menu_components/InboxList'
+import '../../styles/left_menu.css'
+
+import InboxList from './InboxList'
 
 function LeftMenu() {
   return (

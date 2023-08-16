@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/left_menu.css'
 
 function HideRead() {
   return (
