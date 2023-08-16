@@ -1,3 +1,5 @@
+import './inboxList.css'
+
 import ActiveItemLabel from "./ActiveItem/ActiveItemLabel";
 import ActiveItemCount from "./ActiveItem/ActiveItemCount";
 import IdleItemLabel from "./IdleItem/IdleItemLabel";

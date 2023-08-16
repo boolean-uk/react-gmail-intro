@@ -1,3 +1,5 @@
+import './user.css'
+
 function User() {
     return (
         <div className="user-info">

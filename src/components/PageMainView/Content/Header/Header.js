@@ -1,3 +1,5 @@
+import './header.css'
+
 import Avatar from './Avatar/Avatar';
 import MailInfo from './MailInfo/MailInfo';
 import DateInfo from './DateInfo/DateInfo';

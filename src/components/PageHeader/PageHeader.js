@@ -1,3 +1,5 @@
+import './pageHeader.css'
+
 import Menu from "./Menu/Menu";
 import SearchBar from "./SearchBar/SearchBar";
 

@@ -1,3 +1,5 @@
+import './toolBar.css'
+
 import LeftToolBar from "./LeftToolBar";
 import MiddleToolBar from "./MiddleToolBar";
 import RightToolBar from "./RightToolBar";

@@ -1,6 +1,8 @@
-import Reply from './Reply/Reply';
-import Star from './Star/Star';
-import Delete from './Delete/Delete';
+import './mailActions.css'
+
+import Reply from './Reply';
+import Star from './Star';
+import Delete from './Delete';
 
 function MailActions() {
     return (

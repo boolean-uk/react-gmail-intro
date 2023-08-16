@@ -1,3 +1,5 @@
+import './pageLeftMenu.css'
+
 import InboxList from "./InboxList/InboxList";
 
 function PageLeftMenu() {

@@ -1,4 +1,4 @@
-import rubbishButton from '../../../../../.././assets/icons/rubbish-bin-delete-button.png'
+import rubbishButton from '../../../../../assets/icons/rubbish-bin-delete-button.png'
 
 function Delete() {
     return (

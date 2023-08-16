@@ -1,4 +1,4 @@
-import './styles/app.css'
+import './app.css'
 
 //Import React Components
 import PageHeader from './components/PageHeader/PageHeader'

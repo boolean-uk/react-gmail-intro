@@ -1,3 +1,5 @@
+import './menuIcon.css'
+
 function MenuIcon() {
     return (
         <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">

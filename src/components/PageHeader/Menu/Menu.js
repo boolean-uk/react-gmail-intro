@@ -1,3 +1,5 @@
+import './menu.css'
+
 import MenuIcon from "./MenuIcon";
 import MenuLogo from "./MenuLogo";
 

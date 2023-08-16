@@ -1,3 +1,5 @@
+import './mailInfo.css'
+
 import Sender from "./Sender/Sender";
 import User from "./User/User";
 

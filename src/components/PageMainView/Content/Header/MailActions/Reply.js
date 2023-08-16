@@ -1,4 +1,4 @@
-import backArrow from '../../../../../.././assets/icons/back-arrow.png'
+import backArrow from '../../../../../assets/icons/back-arrow.png'
 
 function Reply() {
     return (

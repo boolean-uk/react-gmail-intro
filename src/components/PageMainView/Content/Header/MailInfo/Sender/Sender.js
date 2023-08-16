@@ -1,3 +1,5 @@
+import './sender.css'
+
 function Sender() {
     return (
         <div className="sender-info">

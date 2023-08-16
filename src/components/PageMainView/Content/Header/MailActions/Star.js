@@ -1,4 +1,4 @@
-import rateStarButton from '../../../../../.././assets/icons/rate-star-button.png'
+import rateStarButton from '../../../../../assets/icons/rate-star-button.png'
 
 function Star() {
     return (
