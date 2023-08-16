@@ -1,7 +1,7 @@
 import rateStarButton from '../../assets/icons/rate-star-button.png'
 import rubbishButton from '../../assets/icons/rubbish-bin-delete-button.png'
 import backArrow from '../../assets/icons/back-arrow.png'
-
+import '../../styles/mainmailheader.css' 
 function MainMailHeader(){
     return (
         <header className="email-content--header">

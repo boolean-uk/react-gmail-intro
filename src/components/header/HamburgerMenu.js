@@ -1,3 +1,5 @@
+import '../../styles/hamburgermenu.css'
+
 function HamburgerMenu (){
     return (<div className="left-menu">
     <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">

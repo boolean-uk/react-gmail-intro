@@ -1,4 +1,4 @@
-
+import '../../styles/mainmail.css'
 import flaticonWelcomeImage from '../../assets/images/flaticon-welcome-image.png'
 
 // Added myself
