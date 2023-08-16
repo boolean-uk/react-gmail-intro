@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_content.css'
 
 import flaticonWelcomeImage from '../../assets/images/flaticon-welcome-image.png'
 

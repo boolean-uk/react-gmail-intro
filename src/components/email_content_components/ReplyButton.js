@@ -1,5 +1,3 @@
-import '../../styles/app.css'
-
 function ReplyButton() {
   return <button>Reply</button>
 }

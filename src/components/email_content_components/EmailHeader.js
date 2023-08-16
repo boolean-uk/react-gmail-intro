@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_content.css'
 
 import backArrow from '../../assets/icons/back-arrow.png'
 import rateStarButton from '../../assets/icons/rate-star-button.png'

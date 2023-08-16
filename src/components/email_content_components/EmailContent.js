@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_content.css'
 
 import EmailTitle from './EmailTitle'
 import EmailHeader from './EmailHeader'
