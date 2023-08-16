@@ -6,7 +6,7 @@ import downloadButton from './assets/icons/download-button.png'
 import rateStarButton from './assets/icons/rate-star-button.png'
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 
-import Header from './components/Header.js'
+import Header from './components/headerComponents/Header.js'
 import LeftNavi from './components/LeftNavi.js'
 import Toolbar from './components/Toolbar.js'
 import ContentEmail from './components/ContentEmail.js'
