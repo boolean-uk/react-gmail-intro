@@ -1,15 +1,8 @@
-import './styles/app.css'
+import './leftMenu.css'
 
-import Header from './components/header/Header'
-import LeftMenu from './components/left-menu/Left-menu'
-import EmailView from './components/email-view/Email-view'
-
-function App() {
-  return (
-    <div className="app">
-      <Header />
-      
-      <nav className="left-menu">
+function LeftMenu() {
+    return(
+        <nav className="left-menu">
         <ul className="inbox-list">
           <li className="item active">
             <span className="label">Inbox</span>
@@ -25,9 +18,6 @@ function App() {
           </li>
         </ul>
       </nav>
-      <EmailView />
-    </div>
-  )
+    )
 }
-
-export default App
+export default LeftMenu
