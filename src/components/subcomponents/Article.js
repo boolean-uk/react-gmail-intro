@@ -15,6 +15,7 @@ function Article() {
             <ArticleSectionBody />
             <ArticleSectionButtons />
             <ArticleReplyForm />
+            {/* The ArticleReplyForm is used  to add the extension exercise, you can find the css file for this under styles > replyform.css*/}
       
         </article>
     )
