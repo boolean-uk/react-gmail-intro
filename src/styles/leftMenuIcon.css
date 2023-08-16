@@ -1,0 +1,11 @@
+.app > .left-menu {
+    grid-area: left-menu;
+    padding: 10px;
+    padding-left: 0;
+}
+
+.app > .header > .left-menu .menu-icon {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}

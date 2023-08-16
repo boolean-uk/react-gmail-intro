@@ -1,3 +1,5 @@
+import '../../styles/leftMenu.css'
+
 function LeftMenu() {
     return <nav className="left-menu">
     <ul className="inbox-list">

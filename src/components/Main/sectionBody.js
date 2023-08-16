@@ -1,4 +1,5 @@
 import flaticonWelcomeImage from '../../assets/images/flaticon-welcome-image.png'
+import '../../styles/sectionBody.css'
 
 function SectionBody() {
     return <section className="email-body">

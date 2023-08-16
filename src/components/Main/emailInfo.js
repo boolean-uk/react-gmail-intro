@@ -1,3 +1,5 @@
+import '../../styles/emailInfo.css'
+
 function EmailInfo() {
     return <>
     <div className="avatar"></div>

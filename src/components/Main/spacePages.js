@@ -1,3 +1,5 @@
+import '../../styles/spacePages.css'
+
 function SpacePages() {
     return <>
     <div className="space"></div>

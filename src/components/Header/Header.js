@@ -1,5 +1,6 @@
 import LeftMenuIcon from "./left-menu-icon"
 import Search from "./search"
+import '../../styles/header.css'
 
 function MainHeader() {
     return <header className="header">
