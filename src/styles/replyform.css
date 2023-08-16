@@ -1,0 +1,124 @@
+/* LEFT PANEL*/
+.formcontainer {
+    display: flex;
+    min-width: 600px;
+    max-width: 768px;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.form-iconholder {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.3)
+}
+
+.formcontainer svg {
+    margin-top: 15px;
+    font-size: 4rem;
+}
+
+
+/*RIGHT PANEL*/
+
+.input-container {
+    width: 90%;
+    height: 300px;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1.5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.form-reply-section {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reply-section-left {
+    display: flex;
+    align-items: center;
+}
+
+.form-reply-section .return-button svg {
+    font-size: 1.3rem;
+}
+
+.form-completion-section .dots-button svg {
+    font-size: 1.3rem;
+
+}
+
+
+
+.form-completion-section .button-arrow svg {
+    font-size: 1rem;
+}
+
+
+.form-attachments {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-attachments div>i svg {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.left-content>i svg {
+    margin-left: 0.7rem
+}
+
+.form-attachments .left-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-send-button {
+    color: white;
+    background-color: #1c73e8;
+    position: relative;
+    width: 100px;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.form-send-button::after {
+    content: '';
+    position: absolute;
+    width: 1.5px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    right: 1.5rem;
+}
+
+.form-send-button i {
+    margin-top: -5px;
+    position: absolute;
+    color: white;
+    right: 0;
+
+
+}
+
+.form-send-button .button-arrow svg {
+    font-size: 1.3rem;
+
+
+}
