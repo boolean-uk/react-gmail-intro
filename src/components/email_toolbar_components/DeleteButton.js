@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_toolbar.css'
 
 import rubbishButton from '../../assets/icons/rubbish-bin-delete-button.png'
 

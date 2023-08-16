@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_toolbar.css'
 
 import ReplyButton from './ReplyButton'
 import ArchiveButton from './ArchiveButton'

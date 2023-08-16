@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_toolbar.css'
 
 function ToolBarSpace() {
   return <div className="space"></div>

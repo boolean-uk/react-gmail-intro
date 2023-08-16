@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_toolbar.css'
 
 import backArrow from '../../assets/icons/back-arrow.png'
 

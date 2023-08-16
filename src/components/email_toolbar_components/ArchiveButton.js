@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/email_toolbar.css'
 
 import downloadButton from '../../assets/icons/download-button.png'
 
