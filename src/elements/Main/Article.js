@@ -2,6 +2,7 @@ import ArticleTitleDiv from "./ArticleTitleDiv";
 import ArticleHeader from "./ArticleHeader";
 import ArticleSectionBody from "./ArticleSectionBody";
 import ArticleSectionActions from "./ArticleSectionActions";
+import NewEmail from "../NewEmail/NewEmail";
 
 function Article() {
     return (
@@ -10,6 +11,8 @@ function Article() {
             <ArticleHeader />
             <ArticleSectionBody />
             <ArticleSectionActions />
+            <NewEmail/>
+
         </article>
     );
 }
