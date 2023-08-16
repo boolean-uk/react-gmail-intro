@@ -1,5 +1,3 @@
-import '../../styles/app.css'
-
 function Logo() {
   return (
     <img

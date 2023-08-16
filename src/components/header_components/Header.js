@@ -1,7 +1,7 @@
-import '../styles/app.css'
+import '../../styles/header.css'
 
-import LeftMenu from './header_components/LeftMenu'
-import SearchBar from './header_components/SearchBar'
+import LeftMenu from './LeftMenu'
+import SearchBar from './SearchBar'
 
 function Header() {
   return (

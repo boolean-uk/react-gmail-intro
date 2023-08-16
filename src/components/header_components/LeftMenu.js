@@ -1,4 +1,4 @@
-import '../../styles/app.css'
+import '../../styles/header.css'
 
 import Logo from './Logo'
 import MenuIcon from './MenuIcon'
