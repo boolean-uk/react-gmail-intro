@@ -12,3 +12,46 @@
 
     font-weight: bold;
 }
+
+/* CSS Code for Reply Section */
+.reply-bar {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 1000px;
+    gap: 10px;
+}
+
+.reply-icon {
+    width: 25px;
+}
+
+.reply-avatar {
+    width: 56px;
+    height: 56px;
+
+    border-radius: 100%;
+    background-color: #eee;
+}
+
+.reply-text {
+    border: 2px solid #333;
+    border-radius: 0.25rem;
+    font: 1.25rem / 1.5 sans-serif;
+    display: block;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 300px;
+    padding: 0.5rem 0.75rem;
+}
+
+.reply-button {
+    font-size: 16px;
+}
+
+.reply-icon-2 {
+    width: 25px;
+    justify-self: right;
+    margin-left: auto;
+}
