@@ -1,12 +1,12 @@
 import './footer.css'
 
 function Footer() {
-    return <footer>
+    return (<>
       (<section className="email-actions">
             <button>Reply</button>
             <button>Forward</button>
           </section>)   
-          </footer>
+          </>)
     }
     
     export default Footer

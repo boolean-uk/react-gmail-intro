@@ -1,4 +1,4 @@
-import './searchFunction.css'
+import './searchfunction.css'
 
 function SearchFunction() {
     return (<div className="search">

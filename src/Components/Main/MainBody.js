@@ -1,7 +1,7 @@
-//import './main.css'
-import flaticonWelcomeImage from '../../../.././assets/images/flaticon-welcome-image.png'
+import './main.css'
+import flaticonWelcomeImage from '../.././assets/images/flaticon-welcome-image.png'
 
-function Body() {
+function MainBody() {
     return (<><section className="email-body">
     <div className="content">
       <img src={flaticonWelcomeImage} alt="Flaticon welcome message" />
@@ -9,4 +9,4 @@ function Body() {
     </section></>)
     }
     
-    export default Body
+    export default MainBody

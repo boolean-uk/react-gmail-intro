@@ -2,7 +2,7 @@
     display: grid;
     padding: 6px;
   }
-  
+
   .app > .header > .search .search-bar {
     border: none;
     border-radius: 5px;
