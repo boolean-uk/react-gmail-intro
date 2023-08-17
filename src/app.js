@@ -75,12 +75,12 @@ function App() {
               </div>
               <div className="user-info">
                 <p>
-                  to me <em>&lt;nicolas@boolean.co.uk&gt;</em>
+                  to me <em>&lt;dgiorgos90@gmail.com</em>
                 </p>
               </div>
             </div>
             <div className="date-info">
-              <p>17 March 2021, 09:33</p>
+              <p>17 August</p>
             </div>
             <div className="email-action-icons">
               <ul>
