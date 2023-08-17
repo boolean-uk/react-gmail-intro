@@ -1,9 +1,15 @@
 import '../../styles/email_compose.css'
 
+import ActionsList from './ActionsList'
+import MoreActionsList from './MoreActionsList'
+import SendButton from './SendButton'
+
 function ComposeActions() {
   return (
     <div className="compose-actions">
-      <p>compose email actions here</p>
+      <SendButton />
+      <ActionsList />
+      <MoreActionsList />
     </div>
   )
 }

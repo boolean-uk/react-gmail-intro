@@ -28,6 +28,7 @@
   align-items: center;
   gap: 1rem;
 }
+
 .email-compose > .email-border > .header-container > .reply {
   width: 25px;
   height: 25px;
@@ -47,5 +48,18 @@
 }
 
 .email-compose > .email-border > .compose-actions {
-  background-color: tomato;
+  display: grid;
+  grid-template-columns: 110px auto 45px;
+}
+
+.email-compose > .email-border > .compose-actions > * {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.email-compose > .email-border > .compose-actions > .send-button {
+  width: 100px;
+  height: 40px;
 }
