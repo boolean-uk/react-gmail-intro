@@ -1,12 +1,13 @@
-import React from "react"
-import flaticonWelcomeImage from "../assets/images/flaticon-welcome-image.png"
-import rubbishButton from "../assets/icons/rubbish-bin-delete-button.png"
-import downloadButton from "../assets/icons/download-button.png"
-import rateStarButton from "../assets/icons/rate-star-button.png"
-import backArrow from "../assets/icons/back-arrow.png"
+import { CaretDownOutlined, FontColorsOutlined, EllipsisOutlined, PaperClipOutlined, MoreOutlined, DeleteFilled, PictureFilled, SmileOutlined, ExportOutlined } from '@ant-design/icons'
+import flaticonWelcomeImage from '../assets/images/flaticon-welcome-image.png'
+import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
+import downloadButton from '../assets/icons/download-button.png'
+import rateStarButton from '../assets/icons/rate-star-button.png'
+import backArrow from '../assets/icons/back-arrow.png'
+import { Button, Space } from 'antd'
+import React from 'react'
 
 function EmailView() {
-  
   return (
     <>
       <main className="email-view">
@@ -80,6 +81,41 @@ function EmailView() {
             <button>Reply</button>
             <button>Forward</button>
           </section>
+        </article>
+        <article className="new-email">
+          <div className="email-composer-header">
+            <Space direction="vertical" size="large" align="start">
+              <div className="input-container">
+                <CaretDownOutlined />
+                <input type="text" placeholder="To" className="email-input" />
+                <ExportOutlined className="export-icon" />
+              </div>
+            </Space>
+          </div>
+          <div className="email-composer">
+            <textarea
+              placeholder="Write your email here ..."
+              className="email-textarea"
+            />
+          </div>
+          <div className="email-composer-footer">
+            <Space direction="vertical">
+              <EllipsisOutlined />
+              <div className="footer-icons">
+                <Space>
+                  <Button type="primary">
+                    Send <CaretDownOutlined />
+                  </Button>
+                  <FontColorsOutlined />
+                  <PaperClipOutlined />
+                  <SmileOutlined />
+                  <PictureFilled />
+                </Space>
+                <MoreOutlined className="more-icon" />
+                <DeleteFilled className="delete-icon" />
+              </div>
+            </Space>
+          </div>
         </article>
       </main>
     </>
