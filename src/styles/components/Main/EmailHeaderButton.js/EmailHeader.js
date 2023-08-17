@@ -4,10 +4,10 @@ import HeaderData from './HeaderData'
 import EmailHeaderButton from './EmailHeaderButton'
 
 function EmailHeader() {
-    return <EmailHeader>
+    return (<EmailHeader>
         <EmailTitel />
         <HeaderData />
         <EmailHeaderButton />
-          </EmailHeader>
+          </EmailHeader>)
 }
     export default EmailHeader

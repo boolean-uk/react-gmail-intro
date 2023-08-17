@@ -3,10 +3,12 @@ import EmailHeader from './EmailHeaderButton.js/EmailHeader'
 import Body from './Body/Body'
 
 function Main() {
-    return <main className="email-view">
+    return (<main className="email-view">
+        <nav className="email-toolbar">
         <EmailToolBar />
         <EmailHeader />
         <Body />
-    </ main>
+        </nav>
+    </ main>)
 }
     export default Main

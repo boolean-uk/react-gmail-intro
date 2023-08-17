@@ -1,9 +1,9 @@
 // import './menu.css'
 function Starred() {
-    return <li className="item">
+    return (<li className="item">
             <span className="label">Starred</span>
             <span className="count">2</span>
-          </li>
+          </li>)
     }
     
     export default Starred

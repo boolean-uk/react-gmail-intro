@@ -1,9 +1,10 @@
 // import './emailToolbar.css'
+import backArrow from '../../../.././assets/icons/back-arrow.png'
 
 function Reply() {
-    return<li>
+    return (<li>
             <img className="icon" src={backArrow} alt="reply button" />
-            </li>
+            </li>)
     }
     
     export default Reply

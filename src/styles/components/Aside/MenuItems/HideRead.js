@@ -1,10 +1,10 @@
 // import './menu.css'
 
 function HideRead() {
-    return <li className="item toggle">
+    return (<li className="item toggle">
             <label htmlFor="hide-read">Hide read</label>
             <input id="hide-read" type="checkbox" checked={false} />
-          </li>
+          </li>)
     }
     
     export default HideRead

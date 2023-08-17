@@ -4,10 +4,10 @@ import Starred from'./MenuItems/Starred'
 import HideRead from './MenuItems/HideRead'
 
 function LeftMenu() {
-    return <ul className="inbox-list">
+    return (<nav className="left-menu">
         <Inbox />
         <Starred />
         <HideRead />
-   </ul>     
+   </nav>) 
 }
     export default LeftMenu

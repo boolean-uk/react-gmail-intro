@@ -1,9 +1,10 @@
 // import './emailToolbar.css'
+import downloadButton from '../../../.././assets/icons/download-button.png'
 
 function Archive() {
-    return <li>
+    return (<li>
          <img className="icon" src={downloadButton} alt="archive button" />
-        </li>
+        </li>)
     }
     
     export default Archive

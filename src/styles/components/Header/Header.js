@@ -3,10 +3,10 @@ import SearchFunction from './Searchbar/SearchFunction'
 import HeaderIcons from './HeaderImg/Headericons'
 
 function Header() {
-    return <header className='header'>
+    return (<header className='header'>
         <SearchFunction />
         <HeaderIcons />
-    </header>
+    </header>)
 }
 
 export default Header

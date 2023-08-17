@@ -5,11 +5,11 @@ import Delete from './Delete'
 import LeftRight from './LeftRight'
 
 function EmailToolBar() {
-    return <EmailToolBar>
+    return (<EmailToolBar>
         <Reply />
         <Archive />
         <Delete />
         <LeftRight />
-    </EmailToolBar>
+    </EmailToolBar>)
 }
     export default EmailToolBar
