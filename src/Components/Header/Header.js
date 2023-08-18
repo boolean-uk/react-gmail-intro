@@ -1,12 +1,11 @@
-import SearchFunction from './SearchFunction'
-import GmailLogo from "./GmailLogo"
-import HeaderIcons from './HeaderIcons'
+import SearchBar from './SearchIcons/SearchBar'
+import SearchFunction from './SearchIcons/SearchFunction'
+import './header.css'
 
 function Header() {
     return (<header className='header'>
-        <SearchFunction /> 
-        <HeaderIcons />
-         <GmailLogo />
+        <SearchBar />
+        <SearchFunction />      
     </header>)
 }
 
