@@ -3,11 +3,12 @@ import MainHeader from './MainHeader'
 import MainToolbar from './MainToolbar'
 
 function Main() {
-    return (<header className='header'>
+    return (<main className="email-view">
         <MainToolbar/>
         <MainHeader />
         <MainBody />   
-    </header>)
+    </ main>
+    )
 }
 
 export default Main

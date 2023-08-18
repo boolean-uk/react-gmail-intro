@@ -1,3 +1,4 @@
+import LeftMenu from './LeftMenuIcons/LeftMenu'
 import SearchBar from './SearchIcons/SearchBar'
 import SearchFunction from './SearchIcons/SearchFunction'
 import './header.css'

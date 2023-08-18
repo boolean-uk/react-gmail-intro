@@ -4,7 +4,7 @@ import downloadButton from '../.././assets/icons/download-button.png'
 import rubbishButton from '../.././assets/icons/rubbish-bin-delete-button.png'
 
 function MainToolbar() {
-    return (<main className="email-view">
+    return (
     <nav className="email-toolbar">
       <ul>
         <li>
@@ -24,7 +24,7 @@ function MainToolbar() {
         <button>&gt;</button>
       </div>
     </nav>
-    </main>)
+   )
     }
     
     export default MainToolbar
