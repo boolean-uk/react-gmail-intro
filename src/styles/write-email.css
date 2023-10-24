@@ -1,0 +1,130 @@
+.write-email {
+    padding: 0.5rem 1rem 0.5rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto auto;
+    border-style: ridge;
+    border-width: 0.03cm;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .write-emailbar {
+    padding: 0.5rem 0.5rem 0.5rem;
+    display: inline;
+    grid-row: 1 / span 1;
+    height: auto;
+    border-radius: 0.5rem;
+    border-width: 0.03cm;
+    margin-bottom: 0.5rem;
+    border-style:ridge;
+  }
+
+  .respond-icon {
+    float: left;
+    display: inline;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  
+  .respond-mail {
+    display: inline;
+    float: top;
+    color: rgb(97, 97, 97);
+  }
+
+  .respond-avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    float:left;
+  }
+
+  .respond-expand {
+    float: inline-end;
+    display: inline;
+    width: 20px;
+    height: 20px;
+  }
+
+  .respond-dots {
+    width: 40px;
+    height: 30px;
+    float: bottom;
+  }
+
+  .respond-body {
+    grid-row: 2 / span 1;
+    height: 120px;
+    padding: 0.5rem 0.5rem 0.5rem;
+  }
+
+  .threedots {
+    grid-row: 3 / span 1;
+  }
+
+  .bottom-buttons {
+    border-style: none;
+    grid-row: 4 / span 1;
+    height: auto;
+    padding: 0.5rem 0.5rem 0.5rem;
+  }
+
+  .bottom-buttons .buttonrow {
+    display: grid;
+    grid-template-columns: auto 30px 30px 30px 30px 30px 30px 30px 30px 1fr 25px 25px;
+  }
+
+  .bottom-buttons .buttonrow .send-button {
+    grid-column: 1;
+    height: 35px;
+  }
+
+  .bottom-buttons .buttonrow .textsize {
+    grid-column: 2;
+    height: 30px;
+  }
+
+  .bottom-buttons .buttonrow .attachment {
+    grid-column: 3;
+    height: 30px;
+  }
+
+  .bottom-buttons .buttonrow .weblink {
+    grid-column: 4;
+    height: 30px;
+  }
+  .bottom-buttons .buttonrow .emoticon {
+    grid-column: 5;
+    height: 30px;
+  }
+
+  .bottom-buttons .buttonrow .drive {
+    grid-column: 6;
+    height: 30px;
+  }
+
+  .bottom-buttons .buttonrow .photo {
+    grid-column: 7;
+    height: 30px;
+  }
+
+  .bottom-buttons .buttonrow .confidential {
+    grid-column: 8;
+    height: 30px;
+  }
+
+  .bottom-buttons .buttonrow .signature {
+    grid-column: 9;
+    height: 30px;
+  }
+
+  .bottom-buttons .buttonrow .menu {
+    height: 30px;
+    grid-column: 11;
+  }
+
+  .bottom-buttons .buttonrow .trashcan {
+    height: 30px;
+    grid-column: 12;
+  }
