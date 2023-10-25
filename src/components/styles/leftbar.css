@@ -1,0 +1,40 @@
+app > .header > .left-bar {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .app > .header > .left-bar .menu-icon {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+  }
+
+  .app > .left-bar {
+    grid-area: left-bar;
+    padding: 10px;
+    padding-left: 0;
+  }
+
+  .app > .left-bar .inbox-list {
+    display: grid;
+    grid-gap: 10px;
+  }
+
+  .app > .left-bar .inbox-list .item {
+    padding: 5px 10px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .app > .left-bar .inbox-list .item.active {
+    background-color: #ff000050;
+  }
+  .app > .left-bar .inbox-list .item.toggle {
+    background-color: transparent;
+  }

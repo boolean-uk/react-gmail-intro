@@ -1,0 +1,38 @@
+.profile-pic-container > img{
+    font-size: 10px;
+}
+.new-email-container{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    width: 1fr;
+    gap: 1rem;
+    position: relative;
+    margin: 10px auto;
+    padding: 8px 16px;
+}
+.new-email{
+    width: 1fr;
+    height: 200px;
+}
+.new-email-menu{
+    position: absolute;
+    left: 100px;
+    bottom: 35px;
+    display: grid;
+    grid-template-columns: 80px repeat(8, 40px);
+}
+
+.send-button{
+    padding: 8px 15px 8px 8px;
+    background-color: rgb(236, 55, 176);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.new-email-menu > .icon{
+    place-self: center;
+    margin: 5px;
+    background-color: rgba(128, 128, 128, 0.294);
+    padding: 0px 3px;
+}

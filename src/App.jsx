@@ -5,7 +5,9 @@ import backArrow from './assets/icons/back-arrow.png'
 import downloadButton from './assets/icons/download-button.png'
 import rateStarButton from './assets/icons/rate-star-button.png'
 import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
-
+import header from "./components/emailui/header.jsx"
+import emailui from './components/emailui/emailui.jsx'
+import leftmenu from './components/emailui/leftmenu.jsx'
 function App() {
   return (
     <div className="app">
@@ -14,7 +16,9 @@ function App() {
           <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
           </svg>
-
+          <header></header>
+          <leftmenu></leftmenu>
+          <emailui></emailui>
           <img
             src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
             alt="gmail logo"

@@ -4,7 +4,7 @@
   display: grid;
   grid-template:
     'header header' 50px
-    'left-menu emails' 1fr /
+    'left-bar emails' 1fr /
     180px 1fr;
 }
 
@@ -17,14 +17,14 @@
   border-bottom: solid 1px #00000020;
 }
 
-.app > .header > .left-menu {
+.app > .header > .left-bar {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
   justify-content: left;
 }
 
-.app > .header > .left-menu .menu-icon {
+.app > .header > .left-bar .menu-icon {
   width: 25px;
   height: 25px;
   margin: 10px;
@@ -43,18 +43,18 @@
   font-size: 1rem;
 }
 
-.app > .left-menu {
-  grid-area: left-menu;
+.app > .left-bar {
+  grid-area: left-bar;
   padding: 10px;
   padding-left: 0;
 }
 
-.app > .left-menu .inbox-list {
+.app > .left-bar .inbox-list {
   display: grid;
   grid-gap: 10px;
 }
 
-.app > .left-menu .inbox-list .item {
+.app > .left-bar .inbox-list .item {
   padding: 5px 10px;
   display: grid;
   grid-auto-flow: column;
@@ -65,11 +65,11 @@
   border-bottom-right-radius: 20px;
 }
 
-.app > .left-menu .inbox-list .item.active {
-  background-color: #ff000050;
+.app > .left-bar .inbox-list .item.active {
+  background-color: #00e5ff94;
 }
 
-.app > .left-menu .inbox-list .item.toggle {
+.app > .left-bar .inbox-list .item.toggle {
   background-color: transparent;
 }
 
