@@ -3,6 +3,8 @@ import backArrow from '../../assets/icons/back-arrow.png'
 import rateStarButton from '../../assets/icons/rate-star-button.png'
 import rubbishButton from '../../assets/icons/rubbish-bin-delete-button.png'
 
+import ReplyToEmail from './ReplyToEmail'
+
 function MainEmailContent() {
 
     return (
@@ -48,6 +50,7 @@ function MainEmailContent() {
               </ul>
             </div>
           </header>
+          <ReplyToEmail></ReplyToEmail>
           <section className="email-body">
             <div className="content">
               <img src={flaticonWelcomeImage} alt="Flaticon welcome message" />
