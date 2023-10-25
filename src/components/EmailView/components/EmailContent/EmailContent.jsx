@@ -1,5 +1,6 @@
 import flaticonWelcomeImage from './../../../../assets/images/flaticon-welcome-image.png'
 import EmailContentHeader from './components/Header'
+import './../../../../styles/EmailContent.css'
 
 function EmailContent() {
 return(

@@ -1,3 +1,6 @@
+import './../styles/Header.css'
+import './../styles/LeftMenu.css'
+
 function Header() {
     return(
         <>

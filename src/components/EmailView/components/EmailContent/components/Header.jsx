@@ -1,4 +1,5 @@
 import EmailActionsIcons from './components/EmailActionsIcons.jsx'
+import './../../../../../styles/EmailContentHeader.css'
 
 function EmailContentHeader() {
     return(
