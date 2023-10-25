@@ -8,6 +8,7 @@ import MainSecArticle from './MainSecArticle'
 function MainSec() {
     
     return(
+      <>
          <main className="email-view">
         {/* <nav className="email-toolbar">
           <ul>
@@ -83,6 +84,7 @@ function MainSec() {
         </article> */}
         <MainSecArticle></MainSecArticle>
       </main>
+      </>
     )
 }
 

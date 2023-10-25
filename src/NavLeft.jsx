@@ -2,6 +2,7 @@ import './styles/NavLeft.css'
 
 function NavLeft() {
     return (
+      <>
             <nav className="left-menu">
         <ul className="inbox-list">
           <li className="item active">
@@ -19,6 +20,7 @@ function NavLeft() {
           </li>
         </ul>
       </nav>
+      </>
     )
 }
 

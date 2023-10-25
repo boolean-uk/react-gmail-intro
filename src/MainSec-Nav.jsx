@@ -11,6 +11,7 @@ import './styles/MainSecNav.css'
 
 function MainSecNav() {
     return(
+      <>
         <nav className="email-toolbar">
           <ul>
             <li>
@@ -30,6 +31,7 @@ function MainSecNav() {
             <button>&gt;</button>
           </div>
         </nav>
+        </>
     )
 }
 

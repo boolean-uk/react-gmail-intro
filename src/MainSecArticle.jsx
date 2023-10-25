@@ -11,6 +11,7 @@ import './styles/MainSecArticle.css'
 
 function MainSecArticle() {
     return (
+        <>
  <article className="email-content">
           <div className="title">
             <h1>Welcome to Flaticon</h1>
@@ -63,6 +64,7 @@ function MainSecArticle() {
             <button>Forward</button>
           </section>
         </article>
+        </>
     )
 }
 

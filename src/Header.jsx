@@ -3,6 +3,7 @@ import './styles/Header.css'
 
 function Header() {
     return (
+      <>
           <header className="header">
         <div className="left-menu">
           <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
@@ -19,6 +20,7 @@ function Header() {
           <input className="search-bar" placeholder="Search mail" />
         </div>
       </header>
+      </>
     )
 }
 
