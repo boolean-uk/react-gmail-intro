@@ -1,4 +1,4 @@
-import "../../styles/main/EmailToolbar/EmailToolbar.css"
+import "../../styles/main/EmailToolbar.css"
 
 import backArrow from "../../assets/icons/back-arrow.png";
 import downloadButton from "../../assets/icons/download-button.png";
