@@ -4,18 +4,20 @@
 .new-email-container{
     display: grid;
     grid-template-columns: 60px 1fr;
+    width: 1fr;
+    gap: 1rem;
     position: relative;
-    max-width: 600px;
-    margin: 0 auto;
+    margin: 10px auto;
+    padding: 8px 16px;
 }
 .new-email{
-    width: 540px;
+    width: 1fr;
     height: 200px;
 }
 .new-email-menu{
     position: absolute;
-    left: 70px;
-    bottom: 15px;
+    left: 100px;
+    bottom: 35px;
     display: grid;
     grid-template-columns: 80px repeat(8, 40px);
 }
@@ -28,7 +30,7 @@
     border: none;
 }
 
-.icon{
+.new-email-menu > .icon{
     place-self: center;
     margin: 5px;
     background-color: grey;

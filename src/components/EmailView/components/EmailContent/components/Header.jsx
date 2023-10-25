@@ -1,5 +1,7 @@
 import EmailActionsIcons from './components/EmailActionsIcons.jsx'
+import WriteEmail from './components/WriteEmail.jsx'
 import './../../../../../styles/EmailContentHeader.css'
+
 
 function EmailContentHeader() {
     return(
@@ -22,6 +24,7 @@ function EmailContentHeader() {
             </div>
             <EmailActionsIcons></EmailActionsIcons>
             </header>
+            <WriteEmail></WriteEmail>
         </>
     )
 }

@@ -1,5 +1,5 @@
-import './../styles/WriteEmail.css'
-import './../styles/EmailContentHeader.css'
+import './../../../../../../styles/WriteEmail.css'
+import './../../../../../../styles/EmailContentHeader.css'
 
 //bare-bones draft including some (but not all) elements
 function WriteEmail() {
@@ -8,7 +8,7 @@ function WriteEmail() {
             <section className="new-email-container">
                 <div className="display-profile-pic">
                     <div className="profile-pic-container avatar">
-                        <img src="" alt="profile-pic"></img>
+                        {/* <img src="" alt="profile-pic"></img> */}
                     </div>
                 </div>
                 <textarea className="new-email">
@@ -16,8 +16,7 @@ function WriteEmail() {
                     <div className="new-email-menu">
                         <button className="send-button">Send</button>
                         {/* let\'s just pretend the icons are svgs */}
-                        <div 
-                        className="icon">i</div>
+                        <div className="icon">i</div>
                         <div className="icon">i</div>
                         <div className="icon">i</div>
                         <div className="icon">i</div>
