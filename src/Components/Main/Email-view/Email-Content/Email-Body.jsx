@@ -4,13 +4,13 @@ import '/src/styles/Email-body.css'
 
 function EmailBody() {
     return (
-        <>
-            
+        
+            <>
                 <div className="content">
                     <img src={flaticonWelcomeImage} alt="Flaticon welcome message" />
                 </div>
-            
-        </>
+            </>
+        
     )
 }
 

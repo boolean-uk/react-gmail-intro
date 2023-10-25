@@ -1,3 +1,5 @@
+import '/src/styles/buttons.css'
+
 function EmailActions() {
     return (
         <>
