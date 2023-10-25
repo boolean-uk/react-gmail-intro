@@ -1,3 +1,5 @@
+import "../../styles/main/EmailReply.css";
+
 import backArrow from "../../assets/icons/back-arrow.png";
 
 function EmailReply() {
@@ -16,63 +18,65 @@ function EmailReply() {
   return (
     <article className="email-reply">
       <div className="avatar"></div>
-      <div className="addressee">
-        <ul>
-          <li>
-            <img src={backArrow} alt="reply button" />
-          </li>
-          <li>&#9207;</li>
-          <li>Freepik Company (no-reply@freepik.com)</li>
-          <li>
-            <img
-              src="https://img.icons8.com/material-outlined/24/external-link.png"
-              alt="external link"
-            />
-          </li>
-        </ul>
-      </div>
-      <section className="reply-body">Here is my well put email.</section>
-      <footer>
-        <div className="show-replies"></div>
-        <div className="footer-toolbar">
+      <div className="reply-container">
+        <div className="addressee">
           <ul>
             <li>
-              <button>Send</button>
-              <button>&#9207;</button>
+              <img src={backArrow} alt="reply button" />
             </li>
+            <li>&#9207;</li>
+            <li>Freepik Company (no-reply@freepik.com)</li>
             <li>
-              <img src={color} alt="font color" />
-            </li>
-            <li>
-              <img src={attach} alt="attach" />
-            </li>
-            <li>
-              <img src={link} alt="" />
-            </li>
-            <li>
-              <img src={emoji} alt="" />
-            </li>
-            <li>
-              <img src={drive} alt="" />
-            </li>
-            <li>
-              <img src={image} alt="" />
-            </li>
-            <li>
-              <img src={lock} alt="" />
-            </li>
-            <li>
-              <img src={pen} alt="" />
-            </li>
-            <li>
-              <img src={more} alt="" />
-            </li>
-            <li>
-              <img src={bin} alt="" />
+              <img
+                src="https://img.icons8.com/material-outlined/24/external-link.png"
+                alt="external link"
+              />
             </li>
           </ul>
         </div>
-      </footer>
+        <section className="reply-body">Here is my well put email.</section>
+        <footer>
+          <div className="show-replies"></div>
+          <div className="footer-toolbar">
+            <ul>
+              <li className="sendButtons">
+                <button>Send</button>
+                <button>&#9207;</button>
+              </li>
+              <li>
+                <img src={color} alt="font color" />
+              </li>
+              <li>
+                <img src={attach} alt="attach" />
+              </li>
+              <li>
+                <img src={link} alt="" />
+              </li>
+              <li>
+                <img src={emoji} alt="" />
+              </li>
+              <li>
+                <img src={drive} alt="" />
+              </li>
+              <li>
+                <img src={image} alt="" />
+              </li>
+              <li>
+                <img src={lock} alt="" />
+              </li>
+              <li>
+                <img src={pen} alt="" />
+              </li>
+              <li>
+                <img src={more} alt="" />
+              </li>
+              <li>
+                <img src={bin} alt="" />
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
     </article>
   );
 }

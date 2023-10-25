@@ -1,0 +1,80 @@
+.email-reply {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  gap: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+.email-reply img {
+  width: 24px;
+  height: 24px;
+}
+
+.email-reply ul {
+  display: grid;
+  grid-auto-flow: column;
+
+  padding: 5px;
+  gap: 5px;
+
+  list-style: none;
+  
+}
+
+.reply-container {
+  display: grid;
+  grid-template-rows: auto 150px auto;
+
+  padding: 1rem;
+
+  border: 1px solid #eee;
+  border-radius: 0.5rem;
+}
+
+.addressee > ul {
+  grid-template-columns: auto auto 1fr auto;
+}
+
+.email-reply > .avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  
+  background-color: #eee;
+}
+
+.footer-toolbar > ul {
+  grid-template-columns: repeat(8, auto) 1fr auto auto;
+}
+
+.sendButtons {
+  display: grid;
+  grid-auto-flow: column;
+
+}
+
+.footer-toolbar button {
+  display: grid;
+  align-content: center;
+  height: 24px;
+  border: none;
+
+  
+  color: white;
+  background-color: #1c73e8;
+  
+  
+}
+
+.footer-toolbar button:nth-child(1) {
+  border-radius: 5px 0 0 5px;
+  border-right: 1px #1860c6 solid;
+  padding: 10px;
+}
+
+.footer-toolbar button:nth-child(2) {
+  border-radius: 0 5px 5px 0;
+  padding: 5px;
+}
