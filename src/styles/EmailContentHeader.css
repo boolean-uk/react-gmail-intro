@@ -6,7 +6,8 @@
     gap: 1rem;
   }
   
-  .email-content--header .avatar {
+  .email-content--header .avatar,
+  .avatar {
     width: 56px;
     height: 56px;
   
