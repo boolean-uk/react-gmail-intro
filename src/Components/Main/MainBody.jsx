@@ -6,6 +6,9 @@ import Icons from './Email-view/Email-Content/Header/Icons'
 import EmailBody from './Email-view/Email-Content/Email-Body'
 import EmailActions from './Email-view/Email-Content/Email-Actions'
 
+import '/src/styles/Email-content.css'
+
+
 function Main() {
     return (
         <>

@@ -1,3 +1,5 @@
+import '/src/styles/Email-Info.css'
+
 function Info() {
     return (
         <>
