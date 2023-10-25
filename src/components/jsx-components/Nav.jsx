@@ -1,3 +1,5 @@
+import '../css-components/Nav.css'
+
 function Nav() {
 
     return (
