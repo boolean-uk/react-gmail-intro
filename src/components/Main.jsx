@@ -49,10 +49,12 @@ const Article = () => {
         <Header></Header>
         <SectionBody></SectionBody>
         <SectionActions></SectionActions>
+        <WriteEmail></WriteEmail>
       </article>
     )
 };
 
+// Article--Title
 const Title = () => {
     return (
     <div className="title">
@@ -135,6 +137,35 @@ const SectionActions = () => {
         <button>Forward</button>
       </section>
     )
+};
+
+// Article--WriteEmail
+const WriteEmail = () => {
+  return (
+    <section className="email-write">
+      <div className="email-write--logo">
+        <div className="write--logo"></div>
+      </div>
+      <WriteBody></WriteBody>
+    </section>
+  )
+};
+
+// WriteEmail--Body
+const WriteBody = () => {
+  return (
+    <div className="email-write--body">
+      <div className="write--target">
+        <p>Freepik Company (no-reply@freepik.com)</p>
+      </div>
+      <div className="write--body">
+        <textarea name="write-email--input" rows="10"></textarea>
+      </div>
+      <div className="write--buttons">
+        <button>Send</button>
+      </div>
+    </div>
+  )
 };
 
 export default Main
