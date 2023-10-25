@@ -1,10 +1,9 @@
 .app {
   height: 100vh;
-
   display: grid;
   grid-template:
-    'header header' 50px
-    'left-menu emails' 1fr /
+    "header header" 50px
+    "left-menu emails" 1fr /
     180px 1fr;
 }
 
@@ -73,6 +72,16 @@
   background-color: transparent;
 }
 
+.title {
+  padding: 1rem;
+}
+
+.title h1 {
+  padding-left: 56px;
+
+  font-weight: normal;
+}
+
 .email-toolbar {
   padding: 0.5rem 2rem;
 
@@ -81,7 +90,6 @@
 
   border-bottom: 1px solid #eee;
 }
-
 .email-toolbar > * {
   display: grid;
   grid-auto-flow: column;
@@ -107,17 +115,6 @@
 
   font-weight: bold;
 }
-
-.title {
-  padding: 1rem;
-}
-
-.title h1 {
-  padding-left: 56px;
-
-  font-weight: normal;
-}
-
 .email-content--header {
   padding: 0.5rem 1rem;
 
