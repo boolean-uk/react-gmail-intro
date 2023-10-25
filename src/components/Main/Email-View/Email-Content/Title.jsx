@@ -1,3 +1,5 @@
+import '/src/styles/Title.css'
+
 function Title () {
     return (
         <>

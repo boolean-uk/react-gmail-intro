@@ -1,6 +1,7 @@
 import backArrow from '/src/assets/icons/back-arrow.png'
 import downloadButton from '/src/assets/icons/download-button.png'
 import rubbishButton from '/src/assets/icons/rubbish-bin-delete-button.png'
+import '/src/styles/Email-Toolbar.css'
 
 function EmailToolbar () {
     return (
