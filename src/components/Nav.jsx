@@ -1,3 +1,5 @@
+import "../styles/Nav.css"
+
 const Inbox = () => {
     return (
     <li className="item active">
