@@ -15,20 +15,20 @@
   grid-template-columns: 180px 1fr;
 
   border-bottom: solid 1px #00000020;
-}
+} */
 
-.app > .header > .left-menu {
+ /* .app > .header > .left-menu {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
   justify-content: left;
-}
+}  */
 
-.app > .header > .left-menu .menu-icon {
+/* .app > .header > .left-menu .menu-icon {
   width: 25px;
   height: 25px;
   margin: 10px;
-}
+} */
 
 .app > .header > .search {
   display: grid;
@@ -43,18 +43,18 @@
   font-size: 1rem;
 }
 
-.app > .left-menu {
+/* .app > .left-menu {
   grid-area: left-menu;
   padding: 10px;
   padding-left: 0;
-}
+} */
 
-.app > .left-menu .inbox-list {
+/* .app > .left-menu .inbox-list {
   display: grid;
   grid-gap: 10px;
-}
+} */
 
-.app > .left-menu .inbox-list .item {
+/* .app > .left-menu .inbox-list .item {
   padding: 5px 10px;
   display: grid;
   grid-auto-flow: column;
@@ -63,17 +63,17 @@
 
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}
+} */
 
-.app > .left-menu .inbox-list .item.active {
+/* .app > .left-menu .inbox-list .item.active {
   background-color: #ff000050;
 }
 
 .app > .left-menu .inbox-list .item.toggle {
   background-color: transparent;
-}
+} */
 
-.email-toolbar {
+/* .email-toolbar {
   padding: 0.5rem 2rem;
 
   display: grid;
@@ -106,9 +106,9 @@
   background-color: transparent;
 
   font-weight: bold;
-}
+} */
 
-.title {
+/* .title {
   padding: 1rem;
 }
 
@@ -116,9 +116,9 @@
   padding-left: 56px;
 
   font-weight: normal;
-}
+} */
 
-.email-content--header {
+/* .email-content--header {
   padding: 0.5rem 1rem;
 
   display: grid;
@@ -132,9 +132,9 @@
 
   border-radius: 100%;
   background-color: #eee;
-}
+} */
 
-.email-info {
+/* .email-info {
   padding: 0.25rem 0;
 }
 
@@ -152,8 +152,8 @@
 
 .email-info .user-info p {
   font-size: 0.825rem;
-}
-
+} */
+/* 
 .email-action-icons ul {
   padding: 0;
   margin: 0;
@@ -168,9 +168,9 @@
 .email-action-icons .icon {
   width: 20px;
   height: 20px;
-}
+} */
 
-.email-body .content {
+/* .email-body .content {
   max-width: 600px;
   margin: 0 auto;
 }
@@ -192,4 +192,4 @@
   background-color: transparent;
 
   font-weight: bold;
-}
+} */
