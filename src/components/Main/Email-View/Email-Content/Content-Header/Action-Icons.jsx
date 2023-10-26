@@ -1,7 +1,7 @@
-import backArrow from '/src/assets/icons/back-arrow.png'
-import rateStarButton from '/src/assets/icons/rate-star-button.png'
-import rubbishButton from '/src/assets/icons/rubbish-bin-delete-button.png'
-import '/src/styles/email-actions.css'
+import backArrow from '../../../../../assets/icons/back-arrow.png'
+import rateStarButton from '../../../../../assets/icons/rate-star-button.png'
+import rubbishButton from '../../../../../assets/icons/rubbish-bin-delete-button.png'
+import '../../../../../styles/email-actions.css'
 
 function ActionIcons () {
     return (

@@ -1,4 +1,4 @@
-import '/src/styles/write-emails.css'
+import '../../../../styles/write-emails.css'
 
 function WriteEmail () {
     return (
