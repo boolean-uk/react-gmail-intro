@@ -1,4 +1,4 @@
-import '/src/styles/buttons.css'
+import '../../../../styles/buttons.css'
 
 function EmailActions() {
     return (

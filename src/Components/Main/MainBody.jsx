@@ -1,12 +1,12 @@
 
 import EmailToolBar from './Email-view/email-toolbar'
 import Title from './Email-view/Email-Content/Title.jsx'
-import Info from './Email-view/Email-Content/Header/Info'
-import Icons from './Email-view/Email-Content/Header/Icons'
-import EmailBody from './Email-view/Email-Content/Email-Body'
-import EmailActions from './Email-view/Email-Content/Email-Actions'
+import Info from './Email-view/Email-Content/Header/Info.jsx'
+import Icons from './Email-view/Email-Content/Header/Icons.jsx'
+import EmailBody from './Email-view/Email-Content/Email-Body.jsx'
+import EmailActions from './Email-view/Email-Content/Email-Actions.jsx'
 
-import '/src/styles/Email-content.css'
+import '../../styles/Email-content.css'
 
 
 function Main() {

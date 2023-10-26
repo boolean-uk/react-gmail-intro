@@ -1,6 +1,6 @@
 import flaticonWelcomeImage from '/src/assets/images/flaticon-welcome-image.png'
 
-import '/src/styles/Email-body.css'
+import '../../../../styles/Email-body.css'
 
 function EmailBody() {
     return (
