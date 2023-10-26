@@ -1,8 +1,8 @@
-import "../../../styles/App.css"
+import "../../styles/App.css"
 
-import backArrow from "../../../assets/icons/back-Arrow.png";
-import rateStarButton from '../../../assets/icons/rate-star-button.png';
-import rubbishButton from '../../../assets/icons/rubbish-bin-delete-button.png'
+import backArrow from "../../assets/icons/back-Arrow.png";
+import rateStarButton from '../../assets/icons/rate-star-button.png';
+import rubbishButton from '../../assets/icons/rubbish-bin-delete-button.png'
 
 function EmailContent() {
   return(
