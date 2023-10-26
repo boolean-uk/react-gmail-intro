@@ -1,4 +1,4 @@
-import NavToolbar from "./navToolbar";
+import NavToolbar from "../nav/navToolbar";
 import EmailContent from './content';
 
 function Main () {
