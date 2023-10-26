@@ -1,4 +1,4 @@
-import '/src/styles/Email-Info.css'
+import '/src/styles/Email-info.css'
 
 function Info() {
     return (
