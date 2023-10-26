@@ -1,7 +1,7 @@
 import NavToolbar from "./navToolbar";
 import EmailContent from './content';
 
-function View () {
+function Main () {
   return(
     <main className="email-view">
       <NavToolbar></NavToolbar>
@@ -10,4 +10,4 @@ function View () {
   )
 }
 
-export default View
+export default Main

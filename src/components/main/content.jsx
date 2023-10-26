@@ -3,6 +3,7 @@ import "../../styles/App.css"
 import backArrow from "../../assets/icons/back-Arrow.png";
 import rateStarButton from '../../assets/icons/rate-star-button.png';
 import rubbishButton from '../../assets/icons/rubbish-bin-delete-button.png'
+import flaticonWelcomeImage from '../../assets/images/flaticon-welcome-image.png'
 
 function EmailContent() {
   return(
