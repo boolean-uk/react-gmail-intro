@@ -1,5 +1,5 @@
 import './styles/App.css'
-import Header from './components/header.jsx'
+import Header from './components/Header.jsx'
 import LeftMenu from './components/LeftMenuAll.jsx'
 import Main from './components/Main.jsx'
 
