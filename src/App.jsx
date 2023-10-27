@@ -1,5 +1,5 @@
 import './styles/App.css'
-import Header from `./Header.jsx`
+import Header from './Header';
 import LeftMenu from './Leftmenu.jsx'
 import EmailView from './EmailView.jsx'
 import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
