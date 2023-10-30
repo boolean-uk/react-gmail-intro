@@ -1,7 +1,7 @@
-import '.src/styles/App.css'
-import Header from './Header';
-import MainBody from './MainBody';
-import LeftMenu from './LeftMenu';
+import './src/styles/App.css';
+import Header from './src/components/header.jsx';
+import MainBody from './src/components/main-body.jsx';
+import LeftMenu from './src/components/left-menu.jsx';
 
 function App() {
   return (
