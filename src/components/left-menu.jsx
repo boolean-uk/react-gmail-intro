@@ -1,0 +1,1 @@
+import"./styles/seperated-styles/left-menu.css"
