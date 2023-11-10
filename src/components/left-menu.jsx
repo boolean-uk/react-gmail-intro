@@ -1,4 +1,4 @@
-import './styles/seperated-styles/left-menu.css'
+import '../styles/seperated-styles/left-menu.css'
 
 function LeftMenu() {
   return (
