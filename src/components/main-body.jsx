@@ -1,9 +1,12 @@
 import flaticonWelcomeImage from '../assets/images/flaticon-welcome-image.png';
 import '../styles/main-body.css';
+import EmailToolbar from './email-toolbar';
+
 
 function MainBody() {
   return (
     <main className="email-view">
+      <EmailToolbar />
       <article className="email-content">
         <div className="title">
           <h1>Welcome to Flaticon</h1>

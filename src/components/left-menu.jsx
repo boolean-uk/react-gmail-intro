@@ -1,5 +1,5 @@
-// LeftMenu.jsx
-import '../styles/left-menu.css';
+
+
 
 function LeftMenu() {
   return (
