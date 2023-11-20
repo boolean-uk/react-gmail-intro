@@ -1,5 +1,5 @@
 import './styles/App.css';
-im
+import Header from './components/header.jsx';
 import MainBody from './components/main-body.jsx';
 import LeftMenu from './components/left-menu.jsx';
 import EmailToolbar from './components/email-toolbar.jsx';
