@@ -1,33 +1,26 @@
-import '../styles/header.css';
 
-import backArrow from './assets/icons/back-arrow.png';
-import downloadButton from './assets/icons/download-button.png';
-import rubbishButton from './assets/icons/rubbish-bin-delete-button.png';
+const Header () {
+  return(
+<header className="header">
+        <div className="left-menu">
+          <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+          </svg>
 
-function Header() {
-  return (
-    <header className="header">
-      <nav className="email-toolbar">
-        <ul>
-          <li>
-            <img className="icon" src={backArrow} alt="reply button" />
-          </li>
-          <li>
-            <img className="icon" src={downloadButton} alt="archive button" />
-          </li>
-          <li>
-            <img className="icon" src={rubbishButton} alt="delete button" />
-          </li>
-        </ul>
-        <div className="space"></div>
-        <div>
-          <p>1 of 25</p>
-          <button>&lt;</button>
-          <button>&gt;</button>
+          <img
+            src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
+            alt="gmail logo"
+          />
         </div>
-      </nav>
-    </header>
-  );
+
+        <div className="search">
+          <input className="search-bar" placeholder="Search mail" />
+        </div>
+      </header>
+  )
+}
+
+  )
 }
 
 export default Header;
