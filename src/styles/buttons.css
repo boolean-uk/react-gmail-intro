@@ -2,7 +2,7 @@
     padding: 1rem 0.5rem;
   }
   
-  .email-actions button {
+  .email-actions > button {
     padding: 0.5rem 1rem;
     margin-right: 0.5rem;
   
@@ -13,3 +13,14 @@
     font-weight: bold;
   }
   
+  .sendButton {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgb(62, 125, 250);
+    width: 100px;
+    height: 30px;
+
+    border-radius: 7px;
+  }

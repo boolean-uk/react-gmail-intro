@@ -13,3 +13,18 @@
     border-radius: 100%;
     background-color: #eee;
   }
+
+  .emailForm{
+    display: grid;
+    position: relative;
+    /* place-items: center; */
+  }
+
+  .email-text-box {
+    border-radius: 10px;
+    border: solid 1px grey;
+    margin: 5px;
+    width: 50vw;
+    height: 300px;
+  }
+
