@@ -15,10 +15,12 @@
   
   .sendButton {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 15px;
+    left: 15px;
+
     color: white;
     background-color: rgb(62, 125, 250);
+
     width: 100px;
     height: 30px;
 
