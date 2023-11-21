@@ -16,6 +16,9 @@
 
   .emailForm{
     position: relative;
+    width: 60vw;
+    height: 250px;
+    margin-top: 10px;
   }
 
   .email-text-box {
@@ -26,3 +29,7 @@
     height: 250px;
   }
 
+.svgs {
+  width: 20px;
+  height: 20px;
+}
