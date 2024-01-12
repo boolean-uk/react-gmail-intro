@@ -1,7 +1,10 @@
+
 .email-toolbar {
   padding: 0.5rem 2rem;
+
   display: grid;
   grid-template-columns: auto 1fr auto;
+
   border-bottom: 1px solid #eee;
 }
 
@@ -23,9 +26,11 @@
 
 .email-toolbar button {
   padding: 0.25rem 0.5rem 0.4rem;
+
   border-radius: 0.5rem;
   border: 1px solid #a1a1a1;
   background-color: transparent;
+
   font-weight: bold;
 }
 
@@ -35,11 +40,13 @@
 
 .title h1 {
   padding-left: 56px;
+
   font-weight: normal;
 }
 
 .email-content--header {
   padding: 0.5rem 1rem;
+
   display: grid;
   grid-template-columns: auto 1fr auto auto;
   gap: 1rem;
@@ -48,6 +55,7 @@
 .email-content--header .avatar {
   width: 56px;
   height: 56px;
+
   border-radius: 100%;
   background-color: #eee;
 }
@@ -58,7 +66,9 @@
 
 .email-info .sender-info h2 {
   margin-right: 1rem;
+
   display: inline-block;
+
   font-size: 0.925rem;
 }
 
@@ -73,9 +83,11 @@
 .email-action-icons ul {
   padding: 0;
   margin: 0;
+
   display: grid;
   grid-auto-flow: column;
   gap: 0.25rem;
+
   list-style-type: none;
 }
 
@@ -100,8 +112,10 @@
 .email-actions button {
   padding: 0.5rem 1rem;
   margin-right: 0.5rem;
+
   border-radius: 0.5rem;
   border: 1px solid #a1a1a1;
   background-color: transparent;
+
   font-weight: bold;
 }

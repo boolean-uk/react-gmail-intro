@@ -1,17 +1,16 @@
-import './styles/App.css';
-import Header from './components/header.jsx';
-import MainBody from './components/main-body.jsx';
-import LeftMenu from './components/left-menu.jsx';
+import './styles/App.css'
+import Header from './components/Header'
+import Nav from './components/Nav'
+import Main from './components/Main'
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <LeftMenu />
-      
-      <MainBody />
+      <Header></Header>
+      <Nav></Nav>
+      <Main></Main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
