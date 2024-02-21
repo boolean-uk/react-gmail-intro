@@ -1,3 +1,5 @@
+import "./_sections.css";
+
 import flaticonWelcomeImage from "../../../assets/images/flaticon-welcome-image.png";
 
 function _sections() {

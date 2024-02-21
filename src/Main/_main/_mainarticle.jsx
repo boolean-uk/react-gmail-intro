@@ -1,3 +1,5 @@
+import "./_mainarticle.css";
+
 import _header from "./_mainarticle/_header";
 import _sections from "./_mainarticle/_sections";
 
