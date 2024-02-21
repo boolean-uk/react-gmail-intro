@@ -29,6 +29,7 @@
 }
 .Email-Field {
   height: 40%;
+  margin: 1rem;
 }
 .Bottom-Row {
   background-color: lightcoral;
@@ -37,6 +38,27 @@
   justify-content: space-between;
 }
 .button {
-  padding: 0.2rem;
+  border-color: rgb(76, 101, 138); /* Change border color */
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0.5rem;
   margin: 0.5rem;
+  background-color: rgb(116, 116, 183); /* Change background color */
+  color: white; /* Change text color */
+}
+
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+.picture {
+  padding: 1rem;
+}
+.icon {
+  padding: 0.3rem;
+  width: 36px;
+  height: 36px;
 }
