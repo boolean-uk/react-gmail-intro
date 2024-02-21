@@ -2,6 +2,7 @@ import rateStarButton from "./assets/icons/rate-star-button.png";
 import flaticonWelcomeImage from "./assets/images/flaticon-welcome-image.png";
 import backArrow from "./assets/icons/back-arrow.png";
 import rubbishButton from "./assets/icons/rubbish-bin-delete-button.png";
+import WriteEmailImage from "./assets/images/write-email-component.png";
 
 function Article() {
   return (
@@ -47,6 +48,14 @@ function Article() {
       <section className="email-actions">
         <button>Reply</button>
         <button>Forward</button>
+      </section>
+      <section className="write-email">
+        <img
+          src={WriteEmailImage}
+          alt="Write Email"
+          style={{ width: "1000px", height: "300px" }}
+          //onClick={handleWriteEmail}
+        />
       </section>
     </article>
   );
