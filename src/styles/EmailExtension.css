@@ -1,0 +1,26 @@
+.email-writing {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  
+    border-radius: 0.5rem;
+    border: 1px solid #a1a1a1;
+    background-color: transparent;
+  
+    font-weight: bold;
+  }
+
+  .email-writing .writer-info{
+    position:relative;
+    top: -120px;
+    padding: 8rem 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 1rem;
+  }
+
+  .email-writing .writer-info h2{
+    font-size:medium;
+    position:relative;
+    font-weight: 200;
+    top: 5px;
+  }
