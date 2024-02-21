@@ -1,15 +1,14 @@
 import './styles/App.css'
-
 import Header from "./Components/Header/Header"
 import Navigation from "./Components/Header/Navigation/Navigation"
-import Body from "./Components/Body/Body"
+import EmailView from "./Components/EmailView/EmailView"
 
 function App() {
   return (
     <div className="app">
       <Header></Header>
       <Navigation></Navigation>
-      <Body></Body>
+      <EmailView></EmailView>
     </div>
   )
 }
