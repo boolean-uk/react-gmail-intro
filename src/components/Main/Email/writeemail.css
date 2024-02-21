@@ -1,0 +1,51 @@
+.email-composer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .email-composer__to,
+  .email-composer__subject {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .email-composer__to span,
+  .email-composer__subject span {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .email-composer__input,
+  .email-composer__textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .email-composer__textarea {
+    height: 200px;
+  }
+  
+  .email-composer__actions {
+    text-align: right;
+  }
+  
+  .email-composer__actions button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .email-composer__actions button:hover {
+    opacity: 0.8;
+  }
