@@ -1,49 +1,11 @@
-import "./styles/App.css";
+import _mainnav from "./_main/_mainnav";
+import _mainarticle from "./_main/_mainarticle";
 
-import Header from "./Header/Header";
-import Nav from "./Nav/Nav";
-import MainSection from "./Main/MainSection";
-
-function App() {
+function MainSection() {
   return (
-    <div className="app">
-      {/* <header className="header">
-        <div className="left-menu">
-          <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-          </svg>
-
-          <img
-            src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
-            alt="gmail logo"
-          />
-        </div>
-
-        <div className="search">
-          <input className="search-bar" placeholder="Search mail" />
-        </div>
-      </header> */}
-      <Header></Header>
-      {/* <nav className="left-menu">
-        <ul className="inbox-list">
-          <li className="item active">
-            <span className="label">Inbox</span>
-            <span className="count">3</span>
-          </li>
-          <li className="item">
-            <span className="label">Starred</span>
-            <span className="count">2</span>
-          </li>
-
-          <li className="item toggle">
-            <label htmlFor="hide-read">Hide read</label>
-            <input id="hide-read" type="checkbox" checked={false} />
-          </li>
-        </ul>
-      </nav> */}
-      <Nav></Nav>
-      {/* <main className="email-view">
-        <nav className="email-toolbar">
+    <>
+      <main className="email-view">
+        {/* <nav className="email-toolbar">
           <ul>
             <li>
               <img className="icon" src={backArrow} alt="reply button" />
@@ -61,8 +23,9 @@ function App() {
             <button>&lt;</button>
             <button>&gt;</button>
           </div>
-        </nav>
-        <article className="email-content">
+        </nav> */}
+        <_mainnav></_mainnav>
+        {/* <article className="email-content">
           <div className="title">
             <h1>Welcome to Flaticon</h1>
           </div>
@@ -113,11 +76,11 @@ function App() {
             <button>Reply</button>
             <button>Forward</button>
           </section>
-        </article>
-      </main> */}
-      <MainSection></MainSection>
-    </div>
+        </article> */}
+        <_mainarticle></_mainarticle>
+      </main>
+    </>
   );
 }
 
-export default App;
+export default MainSection;
