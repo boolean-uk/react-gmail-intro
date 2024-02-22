@@ -1,0 +1,55 @@
+.email-action-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  height: 150px;
+  padding: 5px;
+
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 0.6rem;
+
+  margin-bottom: 20px;
+}
+
+.email-action-input {
+  width: 100%;
+
+  border: none;
+  overflow: auto;
+  outline: none;
+  resize: none;
+
+  padding: 8px;
+  font-size: 16px;
+}
+
+.email-action-button-group {
+  cursor: pointer;
+  display: grid;
+  width: 150px;
+  height: 50px;
+  background-color: #1c73e8;
+  border-radius: 0.4rem;
+  position: relative;
+  align-items: center;
+}
+
+.email-action-button-group > .email-action-button {
+  grid-column-start: 1;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  border: none;
+  border-right: 1.5px solid #1b529a;
+  padding: 10px;
+}
+
+.email-action-button-group > .arrow-down {
+  grid-column-start: 2;
+  width: 16px;
+  height: 12px;
+  margin: 0 auto;
+  filter: invert();
+}
