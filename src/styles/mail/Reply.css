@@ -1,0 +1,16 @@
+.reply-box {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 3rem;
+}
+
+.reply-textbox {
+    width: 100% !important;
+    height: 10rem;
+    resize: none;
+}
+
+.btn-reply {
+    width: 100% !important;
+}
