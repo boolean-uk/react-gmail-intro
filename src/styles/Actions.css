@@ -1,0 +1,51 @@
+.reply-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.reply-box .line {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    color: #6b6b6b;
+}
+
+
+.reply-box .icon {
+    width: 17px;
+    height: 17px;
+    margin-right: 6px;
+}
+
+.reply-box .icon.right {
+    margin-left: auto;
+}
+
+.reply-textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    border: none;
+    resize: none;
+}
+
+.reply-textarea:focus {
+    outline: none;
+}
+
+.send-btn {
+    background-color: #387be7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.reply-box .vertical-spacer {
+    height: 10px; /* Adjust the height as needed */
+}
+  
