@@ -1,3 +1,4 @@
+import EmailExtension from './EmailExtension'
 import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
 import './styles/Email.css'
 
@@ -13,6 +14,7 @@ function Email() {
             <button>Reply</button>
             <button>Forward</button>
           </section>
+          <EmailExtension/>
     </div>
     
   )
