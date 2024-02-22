@@ -1,3 +1,5 @@
+import "../styles/layout/SideMenu.css";
+
 const SideMenu = () => {
     return (
         <nav className="left-menu">

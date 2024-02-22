@@ -1,3 +1,5 @@
+import "../styles/layout/MainNavigation.css";
+
 const MainNavigation = () => {
     return (
         <header className="header">

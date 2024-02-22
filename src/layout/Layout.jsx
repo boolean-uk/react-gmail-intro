@@ -1,4 +1,4 @@
-import MainNavigation from "../layout/MainNavigation"
+import MainNavigation from "../layout/MainNavigation";
 import SideMenu from "../layout/SideMenu";
 
 const Layout = (props) => {
@@ -6,9 +6,7 @@ const Layout = (props) => {
         <>
             <MainNavigation />
             <SideMenu />
-            <main className="email-view">
-                {props.children}
-            </main>
+            <main className="email-view">{props.children}</main>
         </>
     );
 };
