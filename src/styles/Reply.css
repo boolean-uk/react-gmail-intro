@@ -1,0 +1,30 @@
+.textarea-container {
+    position: relative;
+    width: 700px;
+    height: 100px;
+    border: 1px solid #ddd;
+}
+
+.textarea-container > .reply {
+    position: relative;
+    width: 700px;
+    height: 100px;
+    resize: none;
+}   
+
+.textarea-container > button {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    width: 80px;
+    background-color: 	#0000ff;
+    color: white;
+
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  
+    border-radius: 0.5rem;
+    border: 1px solid #a1a1a1;
+  
+    font-weight: bold;
+}
