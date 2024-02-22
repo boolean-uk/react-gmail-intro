@@ -1,0 +1,23 @@
+.reply {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.reply-field {
+    width: auto;
+    height: 100%;
+    margin: 5px;
+    border: none;
+    resize: none;
+}
+
+.reply-footer button {
+    color: black;
+    background-color: aquamarine;
+}   
