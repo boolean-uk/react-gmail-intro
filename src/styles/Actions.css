@@ -45,11 +45,7 @@
     font-size: 16px;
 }
 
-.reply-box .tenspace {
+.reply-box .vertical-spacer {
     height: 10px; /* Adjust the height as needed */
 }
-
-.reply-box .spacer {
-    flex-grow: 1; /* Allow the spacer to grow and push the second icon to the right */
-  }
   

@@ -15,6 +15,7 @@ export const Actions = () => {
             <img className="icon" src={backArrow} alt="reply button" />
             <img className="icon" src={placeholder} />
             <p>Freepik Company (no-reply@freepik.com)</p>
+            
             <img className="icon right" src={placeholder} />
           </div>
 
@@ -22,7 +23,7 @@ export const Actions = () => {
 
           <img className="icon" src={placeholder} />
         
-          <div className="tenspace"></div>
+          <div className="vertical-spacer"></div>
 
           <div className="line">
             <button className="send-btn">Send</button>
@@ -34,9 +35,8 @@ export const Actions = () => {
             <img className="icon" src={placeholder} />
             <img className="icon" src={placeholder} />
 
-            <div className="spacer"></div>
             <img className="icon right" src={placeholder} />
-            <img className="icon right" src={placeholder} />
+            <img className="icon" src={placeholder} />
           </div>
         </div>
       </>
