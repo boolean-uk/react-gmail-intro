@@ -97,14 +97,96 @@
   .email-actions {
     padding: 1rem 0.5rem;
   }
-  
-  .email-actions button {
+
+  .email-actions button, .email-write button {
     padding: 0.5rem 1rem;
     margin-right: 0.5rem;
-  
-    border-radius: 0.5rem;
     border: 1px solid #a1a1a1;
     background-color: transparent;
-  
     font-weight: bold;
+  }
+  
+  .email-actions button {
+    background-color: transparent;
+    border-radius: 0.5rem;
+  }
+
+  .email-write button {
+    color: white;
+    border-radius: 0.2rem;
+    background-color: #4444ff;
+  }
+
+  .email-write {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+
+  .email-write form {
+    flex: 1;
+    margin: 0 auto;
+  }
+
+  .email-write-header, .email-write-footer {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    z-index: 2;
+  }
+
+  .email-write-header {
+    align-items: start;
+    top: 6px;
+  }
+
+  .email-write-header .icon {
+    width: 1rem;
+  }
+
+  .email-write-header .icon--small {
+    width: 0.6rem;
+    position: relative;
+    top: -5px;
+  }
+
+  .email-write-header input {
+    margin-left: 0.2rem;
+    border: 0;
+    background-color: transparent;
+  }
+
+
+  .email-write-footer {
+    bottom: 12px;
+  }
+
+  .email-write-footer .icon {
+    position: relative;
+    width: 1.4rem;
+    float: right;
+  }
+
+
+  #email-write-content {
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    border: 0.2px solid lightgrey;
+    border-radius: 10px;
+  }
+
+  #email-write-content:focus {
+    border: none;
+  }
+
+  textarea {
+    resize: none;
+    border: none;
   }
