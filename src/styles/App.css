@@ -1,3 +1,46 @@
+img{
+  cursor: pointer;
+}
+.email-responder {
+  padding: 1rem 1rem;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 1rem;
+}
+
+.backArrowBtn{
+  height: 1rem;
+  padding-right: 0.5rem;
+}
+
+.email-responder .avatar {
+  width: 56px;
+  height: 56px;
+
+  border-radius: 100%;
+  background-color: #473333;
+}
+
+.email-responder .SendBtn{
+    background-color: rgb(0, 89, 255);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.email-responder .email-info{
+  padding: 1rem;
+  border: 2px solid rgb(202, 190, 190);
+  border-radius: 5px;
+}
+
+.email-responder .responder{
+  padding: 5rem;
+}
+
 .app {
   height: 100vh;
 
