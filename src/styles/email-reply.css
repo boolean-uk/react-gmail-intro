@@ -1,0 +1,57 @@
+.write-email {
+  margin: 0 auto;
+}
+
+.msg-toolbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+}
+
+.msg-toolbar > * {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.msg-toolbar .icon {
+  width: 15px;
+  height: 15px;
+}
+
+.msg-toolbar > ul {
+  list-style-type: none;
+}
+
+.msg-box {
+  border-style: solid;
+  border: 1px solid #a1a1a1;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 100px;
+  width: 750px;
+  height: 150px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  float: left;
+  border-radius: 100%;
+  background-color: #eee;
+}
+
+.send-button button {
+  padding: 0.25rem 0.5rem 0.4rem;
+  margin-top: 90px;
+
+  border-radius: 0.5rem;
+  border: 1px solid #a1a1a1;
+  background-color: #4c8bf5;
+
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
