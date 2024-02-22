@@ -1,9 +1,17 @@
+img{
+  cursor: pointer;
+}
 .email-responder {
   padding: 1rem 1rem;
 
   display: grid;
   grid-template-columns: auto 1fr auto auto;
   gap: 1rem;
+}
+
+.backArrowBtn{
+  height: 1rem;
+  padding-right: 0.5rem;
 }
 
 .email-responder .avatar {
@@ -25,7 +33,7 @@
 
 .email-responder .email-info{
   padding: 1rem;
-  border: 1px solid grey;
+  border: 2px solid rgb(202, 190, 190);
   border-radius: 5px;
 }
 
