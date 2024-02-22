@@ -4,6 +4,7 @@ import flaticonWelcomeImage from "../assets/images/flaticon-welcome-image.png";
 
 import GmailMainToolbar from "./GmailMainToolbar";
 import GmailMainContentHeader from "./GmailMainContentHeader";
+import GmailMainInput from "./GmailMainInput";
 
 export default function GmailMain() {
   return (
@@ -23,6 +24,7 @@ export default function GmailMain() {
           <button>Reply</button>
           <button>Forward</button>
         </section>
+        <GmailMainInput />
       </article>
     </main>
   );
