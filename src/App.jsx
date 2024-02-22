@@ -5,6 +5,7 @@ import { Header } from './Componenets/Header'
 import { LeftMenu } from './Componenets/LeftMenu'
 import { MailToolbar } from './Componenets/ToolBar'
 import { Article } from './Componenets/Article/Main'
+import { Actions } from './Componenets/Actions'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <article className="email-content">
           <Article />
         </article>
+      <Actions/>
       </main>
     </div>
   )
