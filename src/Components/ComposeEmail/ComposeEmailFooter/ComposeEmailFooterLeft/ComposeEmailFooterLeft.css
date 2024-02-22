@@ -1,5 +1,6 @@
 .compose-footer-left > #send-button {
-    background: lightskyblue;
+    background: #1c73e8;
+    color: white;
     border-top: solid gray 1px;
     border-left: solid gray 1px;
     border-right: solid gray 0.5px;
@@ -10,7 +11,7 @@
 }
 
 .compose-footer-left > #send-button-options {
-    background: lightskyblue;
+    background: #1c73e8;
     border-top: solid gray 1px;
     border-right: solid gray 1px;
     border-left: none;
@@ -18,6 +19,11 @@
     border-radius: 0% 10% 10% 0%;
     width: 20px;
     height: 40px;
+}
+
+.compose-footer-left > #send-button-options > img {
+    filter: brightness(0) invert(1);
+    
 }
 
 .compose-area > .compose-footer-left {
