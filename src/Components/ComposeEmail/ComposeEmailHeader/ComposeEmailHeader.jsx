@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import "./ComposeEmailHeader.css"
-import PropTypes from 'prop-types'; // Required by boolean es lint for prop type validation
 import backArrow from '@/assets/icons/back-arrow.png'
 import Down from "@/assets/icons/NewIcons/triangle-bottom-arrow-icon.png"
 
@@ -40,11 +39,6 @@ const ComposeEmailHeader = () => {
             }       
         </div>
     )
-}
-
-ComposeEmailHeader.propTypes =  {
-    name: PropTypes.string,
-    email: PropTypes.string,
 }
 
 export default ComposeEmailHeader
