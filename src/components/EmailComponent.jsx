@@ -4,6 +4,7 @@ import flaticonWelcomeImage from '../assets/images/flaticon-welcome-image.png'
 import backArrow from '../assets/icons/back-arrow.png'
 import rateStarButton from '../assets/icons/rate-star-button.png'
 import rubbishButton from '../assets/icons/rubbish-bin-delete-button.png'
+import EmailReply from './EmailReply'
 
 function EmailComponent() {
   return (
@@ -58,6 +59,7 @@ function EmailComponent() {
             <button>Reply</button>
             <button>Forward</button>
           </section>
+          <EmailReply />
         </article>
   )
 }
