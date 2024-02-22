@@ -1,3 +1,5 @@
+import "../styles/GmailMain.css";
+
 import flaticonWelcomeImage from "../assets/images/flaticon-welcome-image.png";
 
 import GmailMainToolbar from "./GmailMainToolbar";
