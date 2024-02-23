@@ -1,3 +1,5 @@
+import "../styles/email.css"
+
 import MainToolbar from "./Main/MainToolbar"
 import MainContent from "./Main/MainContent"
 
