@@ -1,6 +1,6 @@
-import '../styles/WriteEmailAction.css'
+import '../styles/WriteEmailActionBar.css'
 
-export default function WriteEmailAction() {
+export default function WriteEmailActionBar() {
     <div className="write-email-action-bar">
         <button className='send-email-button'>Send</button>
         <button>Style</button>
