@@ -1,0 +1,26 @@
+.write-email-action-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.write-email-action-bar>button {
+    height: 30px;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.send-email-button {
+    background-color: #1C73E8;
+    color: white;
+}
+
+.send-email-button:hover {
+    background-color: #1260c5;
+    color: white;
+}
