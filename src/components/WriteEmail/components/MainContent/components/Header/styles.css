@@ -1,0 +1,32 @@
+
+.writing-box-header {
+    display: flex;
+    flex-direction: row;
+    max-height: 20px;
+}
+
+.reply {
+    height: 14px;
+    width: 13px;
+}
+
+.reply-options {
+    height: 14px;
+    width: 13px;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.email-recepient {
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+
+.share {
+    height: 14px;
+    width: 14px;
+}
+

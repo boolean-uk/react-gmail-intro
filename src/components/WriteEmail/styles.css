@@ -1,0 +1,6 @@
+.email-write {
+    grid-area: email-write;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
