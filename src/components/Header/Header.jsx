@@ -1,12 +1,10 @@
 import LeftMenu from "./LeftMenu"
+import Search from "./Search"
 export default function Header() {
   return (
     <header className="header">
       <LeftMenu />
-
-        <div className="search">
-          <input className="search-bar" placeholder="Search mail" />
-        </div>
+      <Search />
       </header>
   )
 }
