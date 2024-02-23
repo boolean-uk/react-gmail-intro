@@ -2,6 +2,7 @@ import "./index.css";
 
 import flaticonWelcomeImage from "../../assets/images/flaticon-welcome-image.png";
 import EmailActionIcons from "../EmailActionIcons";
+import EmailRespond from "../Respond";
 
 function EmailContent() {
   return (
@@ -36,6 +37,7 @@ function EmailContent() {
         <button>Reply</button>
         <button>Forward</button>
       </section>
+      <EmailRespond />
     </article>
   );
 }
