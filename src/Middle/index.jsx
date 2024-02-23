@@ -4,6 +4,7 @@ import Header from "./Article/Header.jsx"
 import Title from "./Article/Title.jsx"
 import Body from "./Article/Body.jsx"
 import Actions from "./Article/Actions.jsx"
+import Reply from "./Reply/index.jsx"
 import "./style.css"
 
 function Middle(){
@@ -15,6 +16,7 @@ function Middle(){
                 <Title/>
                 <Body/>
                 <Actions/>
+                <Reply/>
             </article>
         
         </main>
