@@ -9,7 +9,16 @@ import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 function App() {
   return (
     <div className="app">
-      <header className="header">
+      <HeaderComponent />
+      <LeftMenuComponent />
+      <MainComponent />
+    </div>
+  )
+}
+
+function HeaderComponent () {
+  return (
+    <header className="header">
         <div className="left-menu">
           <svg className="menu-icon" focusable="false" viewBox="0 0 24 24">
             <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
@@ -25,7 +34,12 @@ function App() {
           <input className="search-bar" placeholder="Search mail" />
         </div>
       </header>
-      <nav className="left-menu">
+  )
+}
+
+function LeftMenuComponent () {
+  return (
+    <nav className="left-menu">
         <ul className="inbox-list">
           <li className="item active">
             <span className="label">Inbox</span>
@@ -41,27 +55,15 @@ function App() {
             <input id="hide-read" type="checkbox" checked={false} />
           </li>
         </ul>
-      </nav>
-      <main className="email-view">
-        <nav className="email-toolbar">
-          <ul>
-            <li>
-              <img className="icon" src={backArrow} alt="reply button" />
-            </li>
-            <li>
-              <img className="icon" src={downloadButton} alt="archive button" />
-            </li>
-            <li>
-              <img className="icon" src={rubbishButton} alt="delete button" />
-            </li>
-          </ul>
-          <div className="space"></div>
-          <div>
-            <p>1 of 25</p>
-            <button>&lt;</button>
-            <button>&gt;</button>
-          </div>
-        </nav>
+    </nav>
+  )
+
+}
+
+function MainComponent () {
+  return (
+    <main className="email-view">
+        <EmailToolbarComponent />
         <article className="email-content">
           <div className="title">
             <h1>Welcome to Flaticon</h1>
@@ -115,7 +117,30 @@ function App() {
           </section>
         </article>
       </main>
-    </div>
+
+  )
+}
+function EmailToolbarComponent () {
+  return (
+    <nav className="email-toolbar">
+          <ul>
+            <li>
+              <img className="icon" src={backArrow} alt="reply button" />
+            </li>
+            <li>
+              <img className="icon" src={downloadButton} alt="archive button" />
+            </li>
+            <li>
+              <img className="icon" src={rubbishButton} alt="delete button" />
+            </li>
+          </ul>
+          <div className="space"></div>
+          <div>
+            <p>1 of 25</p>
+            <button>&lt;</button>
+            <button>&gt;</button>
+          </div>
+    </nav>
   )
 }
 
