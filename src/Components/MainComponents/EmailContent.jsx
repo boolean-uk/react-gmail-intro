@@ -1,7 +1,6 @@
 import React from 'react'
 import EmailActions from './EmailActions'
 import EmailHeader from './EmailHeader'
-import EmailBody from './EmailBody.Jsx'
 
 function EmailContent() {
   return (
@@ -9,7 +8,11 @@ function EmailContent() {
         <article className="email-content">
           <Title/>
           <EmailHeader/>
-          <EmailBody/>
+          <section className="email-body">
+            <div className="content">
+              <img src="src/assets/images/flaticon-welcome-image.png" alt="Flaticon welcome message" />
+            </div>
+          </section>
           <EmailActions/>
         </article>
     </>
