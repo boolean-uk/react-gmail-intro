@@ -3,3 +3,4 @@ export { default as Sidebar } from './Sidebar';
 export { default as MainView } from './MailView';
 
 export { default as EmailContent } from './mail/EmailContent'
+export { default as EmailCompose } from './mail/EmailCompose'
