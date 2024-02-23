@@ -9,6 +9,7 @@ import rubbishButton from './assets/icons/rubbish-bin-delete-button.png'
 import Header from './Header/Header.jsx'
 import LeftMenu from './LeftMenu/LeftMenu.jsx'
 import EmailView from './EmailView/EmailView.jsx'
+import EmailForm from './EmailView/EmailForm/EmailForm.jsx'
 
 function App() {
   return (

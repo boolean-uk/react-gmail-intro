@@ -2,6 +2,7 @@ import ArticleTitle from './ArticleTitle.jsx'
 import ArticleHeader from './ArticleHeader.jsx'
 import ArticleEmailBody from './ArticleEmailBody.jsx'
 import ArticleEmailActions from './ArticleEmailActions.jsx'
+import EmailForm from './EmailForm/EmailForm.jsx'
 
 function Article() {
     return (
@@ -10,6 +11,7 @@ function Article() {
           <ArticleHeader/>
           <ArticleEmailBody/>
           <ArticleEmailActions/>
+          <EmailForm/> {/* EXTENSION */}
         </article>
     )
 }
