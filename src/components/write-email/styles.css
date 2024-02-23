@@ -23,6 +23,7 @@
   font-size: 1rem;
   resize: none;
   margin-top: 20px;
+  scrollbar-width: thin;
 }
 .write-email > body > textarea:focus {
   outline: none;
