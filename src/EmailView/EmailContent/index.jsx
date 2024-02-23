@@ -8,7 +8,6 @@ function EmailContent() {
             <EmailTitle />
             <EmailContentHeader />
             <EmailBody />
-
         </article>
     )
 }

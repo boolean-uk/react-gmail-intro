@@ -1,0 +1,9 @@
+.right-side{
+    float: right;
+    margin-top: -60px;
+}
+
+.right-side img {
+    width: 23px;
+    margin: 10px;
+}

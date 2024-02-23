@@ -1,0 +1,31 @@
+#send-email {
+    background-color: dodgerblue;
+    color: white;
+
+    width: 70px;
+    height: 32px;
+
+    border-style: none;
+    border-radius: 5px 0 0 5px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-color: rgb(9, 122, 235);
+}
+#see-options {
+    background-color: dodgerblue;
+    color: white;
+
+    width: 28px;
+    height: 32px;
+
+    border-style: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.buttons-left #send-email:active {
+    background-color: rgb(9, 122, 235);
+}
+
+.buttons-left #see-options:active {
+    background-color: rgb(9, 122, 235);
+}
