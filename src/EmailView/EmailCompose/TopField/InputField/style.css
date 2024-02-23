@@ -1,0 +1,15 @@
+.top-field {
+    width: 100%;
+    height: 70%;
+}
+
+.reply-arrow {
+    width: 50px;
+    margin: 10px auto auto 10px;
+}
+
+.compose--input-field {
+    width: 60%;
+    padding: 10px;
+    border-style: none;
+}
