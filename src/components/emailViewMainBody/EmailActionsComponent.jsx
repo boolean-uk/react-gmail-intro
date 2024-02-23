@@ -1,10 +1,11 @@
+import WriteEmailComponent from "./WriteEmailComponent"
 function EmailActionsComponent(){
     return(
-
         <section className="email-actions">
-        <button>Reply</button>
+          <WriteEmailComponent/>
         <button>Forward</button>
       </section>
+      
     )
 }
 
