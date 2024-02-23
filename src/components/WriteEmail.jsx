@@ -1,13 +1,12 @@
-import WriteEmailActionBar from './WriteEmailActionBar'
-import '../styles/WriteEmail.css'
-
+import WriteEmailAction from "./WriteEmailAction"
+import '../styles/WriteEmail.css';
 export default function WriteEmail() {
     return (
-        <div className="write email">
-            <h1>Write a new email</h1>
+        <div className="write-email">
+            <h1>Write a new Email</h1>
             <div className="message-box">
-                <textarea placeholder=" Alexander (alexander@hotmail.com)"></textarea>
-                <WriteEmailActionBar/>
+                <textarea placeholder="↪️Alexander Ellnestam (no-reply@no.experis.com)"></textarea>
+                <WriteEmailAction />
             </div>
         </div>
     )

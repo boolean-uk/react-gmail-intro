@@ -1,4 +1,4 @@
-import EmailActionBar from './EmailActionBar'
+import EmailAction from './EmailAction'
 import EmailBody from './EmailBody'
 import EmailHeader from './EmailHeader'
 import EmailToolbar from './EmailToolbar'
@@ -14,7 +14,7 @@ export default function EmailView() {
           </div>
         <EmailHeader />
         <EmailBody />
-        <EmailActionBar />
+        <EmailAction />
         <WriteEmail />
         </article>
       </main>
