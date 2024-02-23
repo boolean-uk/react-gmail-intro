@@ -1,0 +1,10 @@
+.writing-box-textarea {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    vertical-align: top;
+    line-height: 1;
+    resize: none;
+}

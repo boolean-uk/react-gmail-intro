@@ -1,0 +1,39 @@
+.writing-box-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.send-button {
+    padding: 6px 20px 6px 10px;
+    color: white;
+    background-color: rgb(35, 156, 255);
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-radius: 8% 0 0 8%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.select-send-button {
+    padding: 5px 0px 5px 0px;
+    color: white;
+    background-color: rgb(35, 156, 255);
+    border-radius: 0 8% 8% 0;
+    box-sizing: border-box;
+    border: none;
+    border-left: 0.3px solid gray;
+    outline: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.actions {
+    margin-left: 10px;
+    height: 30px;
+}
+
+.dand {
+    margin-left: auto;
+    height: 25px;
+}
