@@ -1,4 +1,4 @@
-import './styles/App.css'
+import './App.css'
 
 import Header from './Header/index.jsx'
 import Main from './Main/index.jsx'
@@ -15,3 +15,4 @@ function App() {
 }
 
 export default App
+

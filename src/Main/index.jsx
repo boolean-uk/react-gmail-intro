@@ -1,12 +1,14 @@
 import Toolbar from './Toolbar/Toolbar.jsx'
 import Article from './Article/Article.jsx'
+import Form from './Form.jsx'
 
 function Main() {
     return (
         <main className="email-view">
-        <Toolbar />
-        <Article />
-      </main>
+            <Toolbar />
+            <Article />
+            <Form />
+        </main>
     )
 }
 
