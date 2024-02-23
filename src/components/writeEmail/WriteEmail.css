@@ -1,0 +1,33 @@
+.write-email-container{
+    display: flex;
+    margin: 1rem 0.5rem;
+   
+}
+.profile{
+    margin-right: 2rem;
+}
+.reply-box{
+    width: 800px;
+    border: 1px solid lightgray;
+    padding: 1rem 0.5rem;
+    border-radius: 20px;
+}
+.email-reply-toolbar{
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar-left{
+    display: flex;
+}
+.toolbar-bottom{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.toolbar-bottom-left{
+    display: flex;
+
+}
+.icon-container > * {
+    margin-right: 0.3rem; 
+}
