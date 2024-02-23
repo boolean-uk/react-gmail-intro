@@ -1,0 +1,107 @@
+.gmail-response-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 50px;
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recipient {
+  margin-top: 1px;
+  font-weight: normal;
+  font-size: normal;
+  color: gray;
+}
+
+.icon {
+  height: 15px;
+  margin-top: 1px;
+  margin-right: 10px;
+}
+
+.response-textarea {
+  width: 100%;
+  min-height: 100px;
+  border: transparent;
+  outline: none;
+  padding: 5px;
+  resize: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.response-textarea:focus {
+  border: 1px solid gray;
+}
+
+.action-bar {
+  display: flex;
+  height: 35px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.send-button {
+  background-color: #1c73e8;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.down-button {
+  background-color: #1c73e8;
+  color: white;
+  padding: 3px 8px;
+  font-size: x-small;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid black;
+  border-left: 0px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+.other-icon {
+  height: 40px;
+  padding-bottom: 4px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.link-icon {
+  height: 35px;
+  margin-top: 1px;
+  margin-right: 3px;
+  padding-bottom: 6px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.respond-icon {
+  height: 30px;
+  margin-top: 1px;
+  margin-right: 10px;
+  padding-bottom: 6px;
+  cursor: pointer;
+}
+
+.trash-icon {
+  height: 40px;
+  margin-top: 2px;
+  padding-bottom: 6px;
+  margin-left: auto;
+  cursor: pointer;
+}
