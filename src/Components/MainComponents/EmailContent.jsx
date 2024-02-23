@@ -14,6 +14,7 @@ function EmailContent() {
             </div>
           </section>
           <EmailActions/>
+          
         </article>
     </>
   )

@@ -1,4 +1,6 @@
 import './styles/App.css'
+import './styles/HeaderStyle.css'
+import './styles/email-reply-box.css'
 
 import HeaderComponent from './Components/HeaderComponents/HeaderComponent'
 import LeftMenu from './Components/LeftMenuComponents/LeftMenu'

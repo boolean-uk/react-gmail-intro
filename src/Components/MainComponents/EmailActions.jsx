@@ -1,10 +1,12 @@
 import React from 'react'
+import TextEditor from './ReplyComponents/TextEditor'
+
 
 function EmailActions() {
   return (
     <>  
         <section className="email-actions">
-            <button>Reply</button>
+            <TextEditor/>
             <button>Forward</button>
         </section>
     </>

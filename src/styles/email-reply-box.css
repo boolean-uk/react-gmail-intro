@@ -1,0 +1,48 @@
+/* email-reply-box.css */
+
+.reply-box-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+
+  }
+
+  
+  .reply-box-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .inptest,
+  .textTest {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #010101;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .textTest {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .btnTest {
+    
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .profile-pic {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+
+  }
