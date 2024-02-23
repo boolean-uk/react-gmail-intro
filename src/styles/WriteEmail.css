@@ -1,0 +1,33 @@
+.write-email {
+    width: 500px;
+    height: 200px;
+    margin-left: 50px;
+    background-color: rgb(240, 238, 234);
+    border-radius: 25px;
+}
+
+.write-email > .avatar {
+    
+    width: 35px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.write-email > .email-actions > .email-title {
+    margin-left: 10px;
+}
+
+
+.write-email > .email-actions > .email-input {
+    margin-left: 10px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.write-email > .email-actions > .btn-send {
+    margin-top: 15px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: rgb(0, 191, 255);
+}
