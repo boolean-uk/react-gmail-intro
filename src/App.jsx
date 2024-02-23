@@ -3,6 +3,7 @@ import './styles/Header.css'
 import './styles/LeftMenu.css'
 import './styles/EmailToolbar.css'
 import './styles/Main.css'
+import './styles/WriteEmail.css'
 
 import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
 import backArrow from './assets/icons/back-arrow.png'
@@ -16,6 +17,7 @@ function App() {
       <HeaderComponent />
       <LeftMenuComponent />
       <MainComponent />
+      <WriteEmailComponent />
     </div>
   )
 }
@@ -145,6 +147,25 @@ function EmailToolbarComponent () {
             <button>&gt;</button>
           </div>
     </nav>
+  )
+}
+
+function WriteEmailComponent () {
+  return (
+    <div className="write-email" >
+      <img
+        src="https://lh3.google.com/u/0/ogw/ADGmqu9SnLFSXSNhQekSAI8qQNn9h-VAhGGPPtNZefIQ=s64-c-mo"
+        alt="avatar"
+        className="avatar"
+      />
+      <div className="email-actions">
+        <h4 className = "email-title"> Write email message here </h4>
+        <input className ="email-input" type="text">
+
+        </input>
+        <button className="btn-send" type="button">Send</button>
+      </div>
+    </div>
   )
 }
 
