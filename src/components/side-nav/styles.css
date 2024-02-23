@@ -1,0 +1,32 @@
+
+  
+ .side-nav > .left-menu {
+    grid-area: left-menu;
+    padding: 10px;
+    padding-left: 0;
+  }
+  
+  .side-nav > .left-menu .inbox-list {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .side-nav >.left-menu .inbox-list .item {
+    padding: 5px 10px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .side-nav > .left-menu .inbox-list .item.active {
+    background-color: #ff000050;
+  }
+  
+  .side-nav > .left-menu .inbox-list .item.toggle {
+    background-color: transparent;
+  }
+  

@@ -1,0 +1,134 @@
+.write-email {
+  border: solid 1px lightgray;
+  border-radius: 5px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 60%;
+  height: 350px;
+}
+
+.write-email > header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.write-email > body > textarea {
+  width: 100%;
+  height: 210px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: none;
+  margin-top: 20px;
+}
+.write-email > body > textarea:focus {
+  outline: none;
+}
+
+.left-side {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.left-side > select {
+  top: 0;
+  left: 100%;
+  width: 100px; /* Adjust width as needed */
+  height: 100%; /* Adjust height as needed */
+  cursor: pointer;
+  border: none;
+  appearance: none; /* Removes default dropdown arrow */
+  -webkit-appearance: none; /* For older versions of Chrome */
+  -moz-appearance: none; /* For older versions of Firefox */
+  padding-right: 20px; /* Provides space for arrow */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M17 16.08c-.76 0-1.44.3-1.96.77L7.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L7.04 9.81C6.5 9.31 5.79 9 5 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>'); /* SVG for share arrow */
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center; /* Adjust position of arrow */
+}
+
+.left-side > text {
+  color: rgb(100, 100, 100);
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.left-side-button-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.left-side-button-container > select {
+  position: absolute;
+  top: 0;
+  border: none;
+  left: 100%;
+  width: 25px; /* Adjust width as needed */
+  height: 100%; /* Adjust height as needed */
+  cursor: pointer;
+  appearance: none; /* Removes default dropdown arrow */
+  -webkit-appearance: none; /* For older versions of Chrome */
+  -moz-appearance: none; /* For older versions of Firefox */
+  padding-right: 20px; /* Provides space for arrow */
+  background-position: center;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6" width="10" height="6"><path d="M0 0l5 5 5-5z" fill="white"/></svg>'); /* SVG for down arrow */
+  background-repeat: no-repeat;
+  border: none;
+  background-color: #007bff;
+  background-position: calc(100% - 9px) center; /* Adjust position of arrow */
+  border-radius: 0 5px 5px 0;
+}
+
+.left-side-button-container > select::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-left: darkgray solid 1px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Allow clicks to pass through */
+}
+
+.left-side-button-container > select:focus {
+  outline: none;
+}
+
+.left-side-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+  border-right: darkgray solid 1px;
+}
+
+.write-email > footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: flex-end;
+}
+.right-side {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding-left: 5px;
+}
+.right-side > a {
+  padding-left: 5px;
+}
+.right-side > .right-right-side {
+  margin-right: 10px;
+}
+.right-side > .right-right-side > a {
+  padding-left: 10px;
+}
