@@ -1,5 +1,5 @@
 import flaticonWelcomeImage from '@/assets/images/flaticon-welcome-image.png'
-import ComposeEmail from "@/Components/ComposeEmail/ComposeEmail"
+import ComposeEmail from "./ComposeEmail/ComposeEmail"
 import "./EmailBody.css"
 
 const EmailBody = () => {
@@ -14,7 +14,7 @@ const EmailBody = () => {
             <button>Reply</button>
             <button>Forward</button>
         </section>
-        <ComposeEmail></ComposeEmail>
+        <ComposeEmail/>
         </>
     )
 }
