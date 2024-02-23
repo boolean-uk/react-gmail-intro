@@ -1,0 +1,45 @@
+.large-textbox-container {
+    position: relative;
+}
+
+.reply-button {
+    position: absolute;
+    top: 15%;
+    left: 8px;
+    transform: translateY(-50%);
+    
+    opacity: 0.4;
+}
+.send-button {
+    position: absolute;
+    box-sizing: border-box;
+    height: 10%;
+    width: 10%;
+    transform: translateY(-100%);
+    cursor: pointer;
+    opacity: 0.4;
+    margin-top: auto;
+}
+
+.large-textbox {
+    width: 100%;
+    max-width: 600px;
+    height: 150px;
+    resize: none;
+    font-size: 16px;
+    margin: 0 auto;
+    border: 2px solid #a1a1a1;
+    border-radius: 8px;
+    padding: 12px;
+    font-family: 'Arial', sans-serif;
+}
+
+.large-textbox::placeholder {
+    color: #a1a1a1;
+}
+
+.large-textbox:focus {
+    border-color: #4285f4;
+    outline: none;
+    box-shadow: 0 0 5px 1px #4285f4;
+}

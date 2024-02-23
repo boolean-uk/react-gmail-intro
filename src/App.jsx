@@ -2,6 +2,7 @@
 import { NavLeftMenu, DivLeftMenu } from './components/Menu'
 import Search from './components/Search'
 import { ArticleEmailContent, NavEmailToolbar } from './components/Email'
+import Text from './components/Text'
 
 
 function App() {
@@ -15,9 +16,19 @@ function App() {
       <NavLeftMenu />
       <main className="email-view">
       <NavEmailToolbar />  
-       <ArticleEmailContent /> 
+       <ArticleEmailContent />
+      <Text />
       </main>
+      
+     
+      
+      
+      
+
+
+
     </div>
+    
   )
 }
 
