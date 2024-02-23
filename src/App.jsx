@@ -1,4 +1,8 @@
 import './styles/App.css'
+import './styles/Header.css'
+import './styles/LeftMenu.css'
+import './styles/EmailToolbar.css'
+import './styles/Main.css'
 
 import flaticonWelcomeImage from './assets/images/flaticon-welcome-image.png'
 import backArrow from './assets/icons/back-arrow.png'
@@ -143,5 +147,6 @@ function EmailToolbarComponent () {
     </nav>
   )
 }
+
 
 export default App
