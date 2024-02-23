@@ -1,0 +1,8 @@
+.reply {
+    display: flex;
+    align-items: center;
+}
+
+.reply-button {
+    margin-right: 10px; /* Adjust the value to control the spacing */
+}
