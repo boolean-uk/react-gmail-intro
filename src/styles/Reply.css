@@ -1,0 +1,15 @@
+.reply-border {
+    display: flex;
+    box-sizing: border-box; 
+    border: 2px solid gray; 
+    border-radius: 10px;
+}
+
+.reply {
+    display: flex;
+    align-items: center;
+}
+
+.reply-button {
+    margin-right: 10px; /* Adjust the value to control the spacing */
+}
