@@ -1,3 +1,10 @@
+.reply-border {
+    display: flex;
+    box-sizing: border-box; 
+    border: 2px solid gray; 
+    border-radius: 10px;
+}
+
 .reply {
     display: flex;
     align-items: center;
