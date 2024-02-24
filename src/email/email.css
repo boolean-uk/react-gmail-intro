@@ -1,3 +1,56 @@
+
+.email {
+  display: flex;
+  height: 100vh;
+}
+
+.emailSidebar {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.emailWriteBox {
+  display: grid;
+  padding: 6px;
+  grid-template-rows: auto 1fr auto;
+  height: 80%; 
+}
+
+.emailWrite {
+  width: 70%;
+  height: 70%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+
+.emailHeader, .emailFooter {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.emailSidebar a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.emailSidebar a:hover {
+  background-color: #ddd;
+}
 .email-toolbar {
     padding: 0.5rem 2rem;
   
