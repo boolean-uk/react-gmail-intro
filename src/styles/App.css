@@ -8,71 +8,6 @@
     180px 1fr;
 }
 
-.app > .header {
-  grid-area: header;
-
-  display: grid;
-  grid-template-columns: 180px 1fr;
-
-  border-bottom: solid 1px #00000020;
-}
-
-.app > .header > .left-menu {
-  display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  justify-content: left;
-}
-
-.app > .header > .left-menu .menu-icon {
-  width: 25px;
-  height: 25px;
-  margin: 10px;
-}
-
-.app > .header > .search {
-  display: grid;
-  padding: 6px;
-}
-
-.app > .header > .search .search-bar {
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(240, 240, 240);
-  padding: 0 10px;
-  font-size: 1rem;
-}
-
-.app > .left-menu {
-  grid-area: left-menu;
-  padding: 10px;
-  padding-left: 0;
-}
-
-.app > .left-menu .inbox-list {
-  display: grid;
-  grid-gap: 10px;
-}
-
-.app > .left-menu .inbox-list .item {
-  padding: 5px 10px;
-  display: grid;
-  grid-auto-flow: column;
-  justify-content: space-between;
-  align-items: center;
-
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.app > .left-menu .inbox-list .item.active {
-  background-color: #ff000050;
-}
-
-.app > .left-menu .inbox-list .item.toggle {
-  background-color: transparent;
-}
-
 .email-toolbar {
   padding: 0.5rem 2rem;
 
@@ -82,14 +17,14 @@
   border-bottom: 1px solid #eee;
 }
 
-.email-toolbar > * {
+.email-toolbar>* {
   display: grid;
   grid-auto-flow: column;
   align-items: center;
   gap: 1rem;
 }
 
-.email-toolbar > ul {
+.email-toolbar>ul {
   list-style-type: none;
 }
 
@@ -192,4 +127,74 @@
   background-color: transparent;
 
   font-weight: bold;
+}
+
+.email-composer {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  /* Adjust as necessary */
+  margin: 20px auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.email-composer-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #b96ce3;
+}
+
+.email-composer-send {
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.email-composer-send:hover {
+  background-color: #0f2e53;
+  color: rgb(18, 16, 16);
+}
+
+.email-composer-body {
+  border: none;
+  resize: none;
+  padding: 15px;
+  height: 150px;
+  /* Adjust height as needed */
+  font-family: 'Roboto', sans-serif;
+}
+
+.email-composer-body:focus {
+  outline: none;
+}
+
+.email-composer-toolbar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.email-composer-toolbar button:hover {
+  background-color: #e8f0fe;
+}
+
+.email-composer-toolbar .icon {
+  padding: 0 5px;
+}
+
+@media (max-width: 720px) {
+  .email-composer {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
