@@ -1,0 +1,45 @@
+
+#writeEmailContainer {
+    display: grid;
+}
+
+li {
+    float: left;
+    margin: 1%;
+}
+
+  
+ ul {
+    list-style-type: none;
+    grid-auto-flow: column;
+
+  }
+
+ .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+
+  #iconContainer {
+    width: 30%;
+    position: relative;
+    left: 15%;
+    bottom: 150%;
+
+
+    
+  }
+  #sendButton {
+    background-color: rgb(47, 148, 216);
+    width: 300%;
+    left: 50%;
+
+  }
+
+  #mainContainer {
+    width: 50%;
+    position: relative;
+    left: 5%;
+    bottom: 150%;
+  }
