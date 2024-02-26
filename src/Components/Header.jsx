@@ -3,7 +3,7 @@ import Search from ".Header/Search"
 
 function EmailHeader() {
     return (
-        <header>
+        <header className="header">
             <GmailMenu/>
             <Search/>
         </header>
