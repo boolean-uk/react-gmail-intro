@@ -1,0 +1,19 @@
+.email {
+  display: grid;
+  padding: 6px;
+}
+
+.email .email-bar {
+  border: solid;
+  border-color: lightgray;
+  background-color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 10px 10px;
+  font-size: 1rem;
+  height: 150px;
+}
+
+.email-bar:focus{
+  outline: none;
+}
