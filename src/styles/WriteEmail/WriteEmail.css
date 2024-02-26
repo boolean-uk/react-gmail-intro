@@ -8,12 +8,11 @@ li {
     margin: 1%;
 }
 
-
-
   
  ul {
     list-style-type: none;
     grid-auto-flow: column;
+
   }
 
  .icon {
@@ -24,9 +23,23 @@ li {
 
   #iconContainer {
     width: 30%;
-    bottom: -43%;
-    position: absolute;
-    left: 17%;
-    grid-auto-flow: row;
+    position: relative;
+    left: 15%;
+    bottom: 150%;
+
+
     
+  }
+  #sendButton {
+    background-color: rgb(47, 148, 216);
+    width: 300%;
+    left: 50%;
+
+  }
+
+  #mainContainer {
+    width: 50%;
+    position: relative;
+    left: 5%;
+    bottom: 150%;
   }

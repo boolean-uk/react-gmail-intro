@@ -5,7 +5,7 @@ import '../../styles/Menu/LeftMenu.css'
 
 
 
-class Footer extends React.Component {
+class LeftMenu extends React.Component {
     render() {
       return(
         <nav className="left-menu">
@@ -21,7 +21,7 @@ class Footer extends React.Component {
 
             <li className="item toggle">
                 <label htmlFor="hide-read">Hide read</label>
-                <input id="hide-read" type="checkbox" checked={false} />
+                <input id="hide-read" type="checkbox" defaultChecked={false} />
             </li>
             </ul>
         </nav>
@@ -30,4 +30,4 @@ class Footer extends React.Component {
       }
     }
 
-    export default Footer;
+    export default LeftMenu;
