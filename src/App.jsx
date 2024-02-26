@@ -1,6 +1,7 @@
 import Header from './Components/Header'
 import LeftMenu from './Components/LeftMenu'
 import EmailView from './Components/EmailView'
+import WriteEmail from './Components/WriteEmail'
 
 import './styles/App.css'
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <LeftMenu />
       <EmailView />
+      <WriteEmail />
     </div>
   )
 }
