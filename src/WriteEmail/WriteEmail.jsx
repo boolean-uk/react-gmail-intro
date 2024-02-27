@@ -1,6 +1,8 @@
 import profileIcon from './assets/icon_for_email.png'
 import customiseIcons from './assets/icons_for_answer.png'
 import backArrow from "./assets/back-arrow.png";
+import sendButton from "./assets/send-button.png";
+import rubbish from "./assets/rubbish-button.png";
 
 function WriteEmail() {
   return (
@@ -44,15 +46,26 @@ function WriteEmail() {
           href={customiseIcons}
           width="370"
           height="55"
-          x="300"
+          x="330"
           y="230"
           preserveAspectRatio="none"
         />
-        <foreignObject x="270" y="60" width="1070" height="168">
-          <body>
-            <button>Send</button>
-          </body>
-        </foreignObject>
+        <image
+          href={sendButton}
+          width="130"
+          height="55"
+          x="190"
+          y="230"
+          preserveAspectRatio="none"
+        />
+        <image
+          href={rubbish}
+          width="60"
+          height="33"
+          x="1300"
+          y="240"
+          preserveAspectRatio="none"
+        />
       </svg>
     </div>
   );
