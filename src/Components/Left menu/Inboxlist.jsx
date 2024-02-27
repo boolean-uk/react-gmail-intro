@@ -4,7 +4,7 @@ import ToggledItems from "./Items/Toggle";
 
 function Inboxlist() {
     return (
-        <ul class="inbox-list">
+        <ul className="inbox-list">
             <ActiveItem/>
             <StarredItems/>
             <ToggledItems/>

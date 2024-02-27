@@ -1,7 +1,7 @@
 function ToggledItems() {
     return (
-        <li>
-            <label for="hide-read">Hide read</label>
+        <li className="item-toggle">
+            <label htmlFor="hide-read">Hide read</label>
             <input id="hide-read" type="checkbox" />
         </li>
     )

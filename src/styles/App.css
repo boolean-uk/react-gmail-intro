@@ -193,3 +193,24 @@
 
   font-weight: bold;
 }
+
+.text-box {
+  resize: none;
+  padding: 1rem;
+  width:  100%;
+}
+
+.response-button {
+  padding-top: 0.1rem;
+  width: 8%;
+  height: 20px;
+}
+
+.menu-icon {
+  width: 50px;
+}
+
+.search-bar {
+  width: 600px;
+  height: 40px;
+}

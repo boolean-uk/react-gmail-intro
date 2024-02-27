@@ -3,7 +3,7 @@ import GmailIcon from "./header-menu/GmailIcon";
 
 function GmailMenu() {
     return (
-        <div>
+        <div className="gmail-header">
             <Burgermenu/>
             <GmailIcon/>
         </div>

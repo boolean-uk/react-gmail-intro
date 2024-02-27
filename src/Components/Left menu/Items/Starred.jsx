@@ -1,8 +1,8 @@
 function StarredItems() {
     return (
-        <li>
-            <span class="label">Starred</span>
-            <span class="count">2</span>
+        <li className="item">
+            <span className="label">Starred</span>
+            <span className="count">2</span>
         </li>
     )
 }

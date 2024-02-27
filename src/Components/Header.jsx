@@ -1,5 +1,5 @@
-import GmailMenu from "./Header/Gmailmenu";
-import Search from ".Header/Search"
+import GmailMenu from "./Homeheader/Gmailmenu";
+import Search from "./Homeheader/Search"
 
 function EmailHeader() {
     return (
